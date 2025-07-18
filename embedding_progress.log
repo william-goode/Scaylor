@@ -1,0 +1,2228 @@
+2025-07-17 21:53:51,793 - ERROR - Fatal error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-07-17 21:53:51,794 - INFO - Check the embedding_checkpoints/ directory for saved progress
+2025-07-17 22:15:26,197 - INFO - Loading PDF: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/american_airlines_pdfs/Q32024.pdf
+2025-07-17 22:15:26,197 - ERROR - Fatal error: `pypdf` package not found, please install it with `pip install pypdf`
+2025-07-17 22:15:26,199 - INFO - Check the embedding_checkpoints/ directory for saved progress
+2025-07-17 22:17:44,115 - INFO - Loading PDF: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/american_airlines_pdfs/Q32024.pdf
+2025-07-17 22:18:11,322 - INFO - Loaded 981 pages from PDF
+2025-07-17 22:18:11,322 - INFO - Splitting documents into chunks (size: 1000, overlap: 200)
+2025-07-17 22:18:11,403 - INFO - Created 4023 chunks
+2025-07-17 22:18:11,412 - INFO - Processing batch 1/805 (chunks 1-5/4023)
+2025-07-17 22:18:11,739 - INFO - Loading faiss with AVX2 support.
+2025-07-17 22:18:11,739 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-07-17 22:18:11,740 - INFO - Loading faiss.
+2025-07-17 22:18:11,757 - INFO - Successfully loaded faiss.
+2025-07-17 22:18:13,769 - INFO - Processing batch 2/805 (chunks 6-10/4023)
+2025-07-17 22:18:15,976 - INFO - Processing batch 3/805 (chunks 11-15/4023)
+2025-07-17 22:18:16,178 - INFO - Checkpoint saved at batch 2
+2025-07-17 22:18:18,179 - INFO - Processing batch 4/805 (chunks 16-20/4023)
+2025-07-17 22:18:20,383 - INFO - Processing batch 5/805 (chunks 21-25/4023)
+2025-07-17 22:18:22,585 - INFO - Processing batch 6/805 (chunks 26-30/4023)
+2025-07-17 22:18:22,803 - INFO - Checkpoint saved at batch 5
+2025-07-17 22:18:24,805 - INFO - Processing batch 7/805 (chunks 31-35/4023)
+2025-07-17 22:18:26,995 - INFO - Processing batch 8/805 (chunks 36-40/4023)
+2025-07-17 22:18:29,170 - INFO - Processing batch 9/805 (chunks 41-45/4023)
+2025-07-17 22:18:29,477 - INFO - Checkpoint saved at batch 8
+2025-07-17 22:18:31,478 - INFO - Processing batch 10/805 (chunks 46-50/4023)
+2025-07-17 22:18:33,676 - INFO - Processing batch 11/805 (chunks 51-55/4023)
+2025-07-17 22:18:35,965 - INFO - Processing batch 12/805 (chunks 56-60/4023)
+2025-07-17 22:18:36,210 - INFO - Checkpoint saved at batch 11
+2025-07-17 22:18:36,211 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:18:38,212 - INFO - Processing batch 13/805 (chunks 61-65/4023)
+2025-07-17 22:18:40,497 - INFO - Processing batch 14/805 (chunks 66-70/4023)
+2025-07-17 22:18:42,884 - INFO - Processing batch 15/805 (chunks 71-75/4023)
+2025-07-17 22:18:43,085 - INFO - Checkpoint saved at batch 14
+2025-07-17 22:18:43,087 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:18:45,088 - INFO - Processing batch 16/805 (chunks 76-80/4023)
+2025-07-17 22:18:47,306 - INFO - Processing batch 17/805 (chunks 81-85/4023)
+2025-07-17 22:18:49,504 - INFO - Processing batch 18/805 (chunks 86-90/4023)
+2025-07-17 22:18:49,700 - INFO - Checkpoint saved at batch 17
+2025-07-17 22:18:49,701 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:18:51,703 - INFO - Processing batch 19/805 (chunks 91-95/4023)
+2025-07-17 22:18:53,894 - INFO - Processing batch 20/805 (chunks 96-100/4023)
+2025-07-17 22:18:56,076 - INFO - Processing batch 21/805 (chunks 101-105/4023)
+2025-07-17 22:18:56,272 - INFO - Checkpoint saved at batch 20
+2025-07-17 22:18:56,273 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:18:58,275 - INFO - Processing batch 22/805 (chunks 106-110/4023)
+2025-07-17 22:19:00,458 - INFO - Processing batch 23/805 (chunks 111-115/4023)
+2025-07-17 22:19:02,656 - INFO - Processing batch 24/805 (chunks 116-120/4023)
+2025-07-17 22:19:02,851 - INFO - Checkpoint saved at batch 23
+2025-07-17 22:19:02,853 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:19:04,853 - INFO - Processing batch 25/805 (chunks 121-125/4023)
+2025-07-17 22:19:07,048 - INFO - Processing batch 26/805 (chunks 126-130/4023)
+2025-07-17 22:19:07,233 - INFO - Process interrupted by user. Progress has been saved in checkpoints.
+2025-07-17 22:22:49,549 - INFO - Loading PDF: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/american_airlines_pdfs/Q32024.pdf
+2025-07-17 22:23:16,476 - INFO - Loaded 981 pages from PDF
+2025-07-17 22:23:16,476 - INFO - Splitting documents into chunks (size: 1000, overlap: 200)
+2025-07-17 22:23:16,558 - INFO - Created 4023 chunks
+2025-07-17 22:23:16,562 - INFO - Processing batch 1/805 (chunks 1-5/4023)
+2025-07-17 22:23:16,819 - INFO - Loading faiss with AVX2 support.
+2025-07-17 22:23:16,819 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-07-17 22:23:16,819 - INFO - Loading faiss.
+2025-07-17 22:23:16,835 - INFO - Successfully loaded faiss.
+2025-07-17 22:23:16,841 - INFO - Successfully processed batch 1
+2025-07-17 22:23:18,842 - INFO - Processing batch 2/805 (chunks 6-10/4023)
+2025-07-17 22:23:19,048 - INFO - Successfully processed batch 2
+2025-07-17 22:23:21,049 - INFO - Processing batch 3/805 (chunks 11-15/4023)
+2025-07-17 22:23:21,251 - INFO - Successfully processed batch 3
+2025-07-17 22:23:21,252 - INFO - Checkpoint saved at batch 2
+2025-07-17 22:23:23,254 - INFO - Processing batch 4/805 (chunks 16-20/4023)
+2025-07-17 22:23:23,440 - INFO - Successfully processed batch 4
+2025-07-17 22:23:25,440 - INFO - Processing batch 5/805 (chunks 21-25/4023)
+2025-07-17 22:23:25,639 - INFO - Successfully processed batch 5
+2025-07-17 22:23:27,641 - INFO - Processing batch 6/805 (chunks 26-30/4023)
+2025-07-17 22:23:27,829 - INFO - Successfully processed batch 6
+2025-07-17 22:23:27,832 - INFO - Checkpoint saved at batch 5
+2025-07-17 22:23:29,833 - INFO - Processing batch 7/805 (chunks 31-35/4023)
+2025-07-17 22:23:30,029 - INFO - Successfully processed batch 7
+2025-07-17 22:23:32,030 - INFO - Processing batch 8/805 (chunks 36-40/4023)
+2025-07-17 22:23:32,222 - INFO - Successfully processed batch 8
+2025-07-17 22:23:34,224 - INFO - Processing batch 9/805 (chunks 41-45/4023)
+2025-07-17 22:23:34,416 - INFO - Successfully processed batch 9
+2025-07-17 22:23:34,418 - INFO - Checkpoint saved at batch 8
+2025-07-17 22:23:36,419 - INFO - Processing batch 10/805 (chunks 46-50/4023)
+2025-07-17 22:23:36,610 - INFO - Successfully processed batch 10
+2025-07-17 22:23:38,611 - INFO - Processing batch 11/805 (chunks 51-55/4023)
+2025-07-17 22:23:38,866 - INFO - Successfully processed batch 11
+2025-07-17 22:23:40,867 - INFO - Processing batch 12/805 (chunks 56-60/4023)
+2025-07-17 22:23:41,057 - INFO - Successfully processed batch 12
+2025-07-17 22:23:41,060 - INFO - Checkpoint saved at batch 11
+2025-07-17 22:23:41,062 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:23:43,063 - INFO - Processing batch 13/805 (chunks 61-65/4023)
+2025-07-17 22:23:43,252 - INFO - Successfully processed batch 13
+2025-07-17 22:23:45,254 - INFO - Processing batch 14/805 (chunks 66-70/4023)
+2025-07-17 22:23:45,459 - INFO - Successfully processed batch 14
+2025-07-17 22:23:47,460 - INFO - Processing batch 15/805 (chunks 71-75/4023)
+2025-07-17 22:23:47,653 - INFO - Successfully processed batch 15
+2025-07-17 22:23:47,656 - INFO - Checkpoint saved at batch 14
+2025-07-17 22:23:47,657 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:23:49,658 - INFO - Processing batch 16/805 (chunks 76-80/4023)
+2025-07-17 22:23:49,933 - INFO - Successfully processed batch 16
+2025-07-17 22:23:51,935 - INFO - Processing batch 17/805 (chunks 81-85/4023)
+2025-07-17 22:23:52,122 - INFO - Successfully processed batch 17
+2025-07-17 22:23:54,123 - INFO - Processing batch 18/805 (chunks 86-90/4023)
+2025-07-17 22:23:54,317 - INFO - Successfully processed batch 18
+2025-07-17 22:23:54,335 - INFO - Checkpoint saved at batch 17
+2025-07-17 22:23:54,342 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:23:56,344 - INFO - Processing batch 19/805 (chunks 91-95/4023)
+2025-07-17 22:23:56,534 - INFO - Successfully processed batch 19
+2025-07-17 22:23:58,534 - INFO - Processing batch 20/805 (chunks 96-100/4023)
+2025-07-17 22:23:58,725 - INFO - Successfully processed batch 20
+2025-07-17 22:24:00,726 - INFO - Processing batch 21/805 (chunks 101-105/4023)
+2025-07-17 22:24:00,917 - INFO - Successfully processed batch 21
+2025-07-17 22:24:00,922 - INFO - Checkpoint saved at batch 20
+2025-07-17 22:24:00,925 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:24:02,925 - INFO - Processing batch 22/805 (chunks 106-110/4023)
+2025-07-17 22:24:03,118 - INFO - Successfully processed batch 22
+2025-07-17 22:24:05,119 - INFO - Processing batch 23/805 (chunks 111-115/4023)
+2025-07-17 22:24:05,304 - INFO - Successfully processed batch 23
+2025-07-17 22:24:07,305 - INFO - Processing batch 24/805 (chunks 116-120/4023)
+2025-07-17 22:24:07,494 - INFO - Successfully processed batch 24
+2025-07-17 22:24:07,498 - INFO - Checkpoint saved at batch 23
+2025-07-17 22:24:07,500 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:24:09,501 - INFO - Processing batch 25/805 (chunks 121-125/4023)
+2025-07-17 22:24:09,690 - INFO - Successfully processed batch 25
+2025-07-17 22:24:11,691 - INFO - Processing batch 26/805 (chunks 126-130/4023)
+2025-07-17 22:24:11,891 - INFO - Successfully processed batch 26
+2025-07-17 22:24:12,205 - INFO - Process interrupted by user. Progress has been saved in checkpoints.
+2025-07-17 22:24:59,829 - INFO - Found checkpoint at batch 23
+2025-07-17 22:24:59,834 - INFO - Loading faiss with AVX2 support.
+2025-07-17 22:24:59,834 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-07-17 22:24:59,834 - INFO - Loading faiss.
+2025-07-17 22:24:59,849 - INFO - Successfully loaded faiss.
+2025-07-17 22:24:59,881 - INFO - Checkpoint loaded from batch 23
+2025-07-17 22:24:59,881 - INFO - Resuming from batch 24, 120 chunks already processed
+2025-07-17 22:24:59,881 - INFO - Loading PDF: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/american_airlines_pdfs/Q32024.pdf
+2025-07-17 22:25:26,917 - INFO - Loaded 981 pages from PDF
+2025-07-17 22:25:26,917 - INFO - Splitting documents into chunks (size: 1000, overlap: 200)
+2025-07-17 22:25:27,044 - INFO - Created 4023 chunks
+2025-07-17 22:25:27,050 - INFO - Filtered out 124 already processed chunks
+2025-07-17 22:25:27,055 - INFO - Processing batch 25/804 (chunks 1-5/3899)
+2025-07-17 22:25:27,304 - INFO - Successfully processed batch 25
+2025-07-17 22:25:29,305 - INFO - Processing batch 26/804 (chunks 6-10/3899)
+2025-07-17 22:25:29,464 - INFO - Successfully processed batch 26
+2025-07-17 22:25:31,465 - INFO - Processing batch 27/804 (chunks 11-15/3899)
+2025-07-17 22:25:31,662 - INFO - Successfully processed batch 27
+2025-07-17 22:25:31,681 - INFO - Checkpoint saved at batch 26
+2025-07-17 22:25:31,683 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:25:33,684 - INFO - Processing batch 28/804 (chunks 16-20/3899)
+2025-07-17 22:25:33,969 - INFO - Successfully processed batch 28
+2025-07-17 22:25:35,970 - INFO - Processing batch 29/804 (chunks 21-25/3899)
+2025-07-17 22:25:36,247 - INFO - Successfully processed batch 29
+2025-07-17 22:25:38,248 - INFO - Processing batch 30/804 (chunks 26-30/3899)
+2025-07-17 22:25:38,523 - INFO - Successfully processed batch 30
+2025-07-17 22:25:38,528 - INFO - Checkpoint saved at batch 29
+2025-07-17 22:25:38,530 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:25:40,530 - INFO - Processing batch 31/804 (chunks 31-35/3899)
+2025-07-17 22:25:40,862 - INFO - Successfully processed batch 31
+2025-07-17 22:25:42,862 - INFO - Processing batch 32/804 (chunks 36-40/3899)
+2025-07-17 22:25:43,243 - INFO - Successfully processed batch 32
+2025-07-17 22:25:45,245 - INFO - Processing batch 33/804 (chunks 41-45/3899)
+2025-07-17 22:25:45,430 - INFO - Successfully processed batch 33
+2025-07-17 22:25:45,435 - INFO - Checkpoint saved at batch 32
+2025-07-17 22:25:45,436 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:25:47,437 - INFO - Processing batch 34/804 (chunks 46-50/3899)
+2025-07-17 22:25:47,627 - INFO - Successfully processed batch 34
+2025-07-17 22:25:49,628 - INFO - Processing batch 35/804 (chunks 51-55/3899)
+2025-07-17 22:25:49,819 - INFO - Successfully processed batch 35
+2025-07-17 22:25:51,820 - INFO - Processing batch 36/804 (chunks 56-60/3899)
+2025-07-17 22:25:52,017 - INFO - Successfully processed batch 36
+2025-07-17 22:25:52,044 - INFO - Checkpoint saved at batch 35
+2025-07-17 22:25:52,052 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:25:54,053 - INFO - Processing batch 37/804 (chunks 61-65/3899)
+2025-07-17 22:25:54,241 - INFO - Successfully processed batch 37
+2025-07-17 22:25:56,242 - INFO - Processing batch 38/804 (chunks 66-70/3899)
+2025-07-17 22:25:56,431 - INFO - Successfully processed batch 38
+2025-07-17 22:25:58,431 - INFO - Processing batch 39/804 (chunks 71-75/3899)
+2025-07-17 22:25:58,620 - INFO - Successfully processed batch 39
+2025-07-17 22:25:58,624 - INFO - Checkpoint saved at batch 38
+2025-07-17 22:25:58,625 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:00,627 - INFO - Processing batch 40/804 (chunks 76-80/3899)
+2025-07-17 22:26:00,910 - INFO - Successfully processed batch 40
+2025-07-17 22:26:02,911 - INFO - Processing batch 41/804 (chunks 81-85/3899)
+2025-07-17 22:26:03,163 - INFO - Successfully processed batch 41
+2025-07-17 22:26:05,164 - INFO - Processing batch 42/804 (chunks 86-90/3899)
+2025-07-17 22:26:05,363 - INFO - Successfully processed batch 42
+2025-07-17 22:26:05,392 - INFO - Checkpoint saved at batch 41
+2025-07-17 22:26:05,399 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:07,400 - INFO - Processing batch 43/804 (chunks 91-95/3899)
+2025-07-17 22:26:07,579 - INFO - Successfully processed batch 43
+2025-07-17 22:26:09,579 - INFO - Processing batch 44/804 (chunks 96-100/3899)
+2025-07-17 22:26:09,770 - INFO - Successfully processed batch 44
+2025-07-17 22:26:11,771 - INFO - Processing batch 45/804 (chunks 101-105/3899)
+2025-07-17 22:26:11,961 - INFO - Successfully processed batch 45
+2025-07-17 22:26:11,968 - INFO - Checkpoint saved at batch 44
+2025-07-17 22:26:11,970 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:13,971 - INFO - Processing batch 46/804 (chunks 106-110/3899)
+2025-07-17 22:26:14,162 - INFO - Successfully processed batch 46
+2025-07-17 22:26:16,162 - INFO - Processing batch 47/804 (chunks 111-115/3899)
+2025-07-17 22:26:16,352 - INFO - Successfully processed batch 47
+2025-07-17 22:26:18,354 - INFO - Processing batch 48/804 (chunks 116-120/3899)
+2025-07-17 22:26:18,538 - INFO - Successfully processed batch 48
+2025-07-17 22:26:18,544 - INFO - Checkpoint saved at batch 47
+2025-07-17 22:26:18,545 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:20,547 - INFO - Processing batch 49/804 (chunks 121-125/3899)
+2025-07-17 22:26:20,735 - INFO - Successfully processed batch 49
+2025-07-17 22:26:22,736 - INFO - Processing batch 50/804 (chunks 126-130/3899)
+2025-07-17 22:26:22,930 - INFO - Successfully processed batch 50
+2025-07-17 22:26:24,930 - INFO - Processing batch 51/804 (chunks 131-135/3899)
+2025-07-17 22:26:25,115 - INFO - Successfully processed batch 51
+2025-07-17 22:26:25,122 - INFO - Checkpoint saved at batch 50
+2025-07-17 22:26:25,123 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:27,124 - INFO - Processing batch 52/804 (chunks 136-140/3899)
+2025-07-17 22:26:27,403 - INFO - Successfully processed batch 52
+2025-07-17 22:26:29,403 - INFO - Processing batch 53/804 (chunks 141-145/3899)
+2025-07-17 22:26:29,592 - INFO - Successfully processed batch 53
+2025-07-17 22:26:31,593 - INFO - Processing batch 54/804 (chunks 146-150/3899)
+2025-07-17 22:26:31,769 - INFO - Successfully processed batch 54
+2025-07-17 22:26:31,775 - INFO - Checkpoint saved at batch 53
+2025-07-17 22:26:31,777 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:33,778 - INFO - Processing batch 55/804 (chunks 151-155/3899)
+2025-07-17 22:26:33,958 - INFO - Successfully processed batch 55
+2025-07-17 22:26:35,958 - INFO - Processing batch 56/804 (chunks 156-160/3899)
+2025-07-17 22:26:36,157 - INFO - Successfully processed batch 56
+2025-07-17 22:26:38,157 - INFO - Processing batch 57/804 (chunks 161-165/3899)
+2025-07-17 22:26:38,350 - INFO - Successfully processed batch 57
+2025-07-17 22:26:38,357 - INFO - Checkpoint saved at batch 56
+2025-07-17 22:26:38,361 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:40,364 - INFO - Processing batch 58/804 (chunks 166-170/3899)
+2025-07-17 22:26:40,562 - INFO - Successfully processed batch 58
+2025-07-17 22:26:42,563 - INFO - Processing batch 59/804 (chunks 171-175/3899)
+2025-07-17 22:26:42,752 - INFO - Successfully processed batch 59
+2025-07-17 22:26:44,753 - INFO - Processing batch 60/804 (chunks 176-180/3899)
+2025-07-17 22:26:44,945 - INFO - Successfully processed batch 60
+2025-07-17 22:26:44,951 - INFO - Checkpoint saved at batch 59
+2025-07-17 22:26:44,953 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:46,954 - INFO - Processing batch 61/804 (chunks 181-185/3899)
+2025-07-17 22:26:47,147 - INFO - Successfully processed batch 61
+2025-07-17 22:26:49,147 - INFO - Processing batch 62/804 (chunks 186-190/3899)
+2025-07-17 22:26:49,335 - INFO - Successfully processed batch 62
+2025-07-17 22:26:51,337 - INFO - Processing batch 63/804 (chunks 191-195/3899)
+2025-07-17 22:26:51,523 - INFO - Successfully processed batch 63
+2025-07-17 22:26:51,529 - INFO - Checkpoint saved at batch 62
+2025-07-17 22:26:51,531 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:26:53,533 - INFO - Processing batch 64/804 (chunks 196-200/3899)
+2025-07-17 22:26:53,721 - INFO - Successfully processed batch 64
+2025-07-17 22:26:55,722 - INFO - Processing batch 65/804 (chunks 201-205/3899)
+2025-07-17 22:26:55,903 - INFO - Successfully processed batch 65
+2025-07-17 22:26:57,904 - INFO - Processing batch 66/804 (chunks 206-210/3899)
+2025-07-17 22:26:58,094 - INFO - Successfully processed batch 66
+2025-07-17 22:26:58,100 - INFO - Checkpoint saved at batch 65
+2025-07-17 22:26:58,101 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:00,103 - INFO - Processing batch 67/804 (chunks 211-215/3899)
+2025-07-17 22:27:00,390 - INFO - Successfully processed batch 67
+2025-07-17 22:27:02,391 - INFO - Processing batch 68/804 (chunks 216-220/3899)
+2025-07-17 22:27:02,580 - INFO - Successfully processed batch 68
+2025-07-17 22:27:04,581 - INFO - Processing batch 69/804 (chunks 221-225/3899)
+2025-07-17 22:27:04,765 - INFO - Successfully processed batch 69
+2025-07-17 22:27:04,772 - INFO - Checkpoint saved at batch 68
+2025-07-17 22:27:04,773 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:06,775 - INFO - Processing batch 70/804 (chunks 226-230/3899)
+2025-07-17 22:27:06,961 - INFO - Successfully processed batch 70
+2025-07-17 22:27:08,961 - INFO - Processing batch 71/804 (chunks 231-235/3899)
+2025-07-17 22:27:09,153 - INFO - Successfully processed batch 71
+2025-07-17 22:27:11,154 - INFO - Processing batch 72/804 (chunks 236-240/3899)
+2025-07-17 22:27:11,348 - INFO - Successfully processed batch 72
+2025-07-17 22:27:11,355 - INFO - Checkpoint saved at batch 71
+2025-07-17 22:27:11,357 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:13,358 - INFO - Processing batch 73/804 (chunks 241-245/3899)
+2025-07-17 22:27:13,543 - INFO - Successfully processed batch 73
+2025-07-17 22:27:15,544 - INFO - Processing batch 74/804 (chunks 246-250/3899)
+2025-07-17 22:27:15,730 - INFO - Successfully processed batch 74
+2025-07-17 22:27:17,732 - INFO - Processing batch 75/804 (chunks 251-255/3899)
+2025-07-17 22:27:17,928 - INFO - Successfully processed batch 75
+2025-07-17 22:27:17,940 - INFO - Checkpoint saved at batch 74
+2025-07-17 22:27:17,943 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:19,944 - INFO - Processing batch 76/804 (chunks 256-260/3899)
+2025-07-17 22:27:20,135 - INFO - Successfully processed batch 76
+2025-07-17 22:27:22,136 - INFO - Processing batch 77/804 (chunks 261-265/3899)
+2025-07-17 22:27:22,396 - INFO - Successfully processed batch 77
+2025-07-17 22:27:24,397 - INFO - Processing batch 78/804 (chunks 266-270/3899)
+2025-07-17 22:27:24,687 - INFO - Successfully processed batch 78
+2025-07-17 22:27:24,694 - INFO - Checkpoint saved at batch 77
+2025-07-17 22:27:24,695 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:26,696 - INFO - Processing batch 79/804 (chunks 271-275/3899)
+2025-07-17 22:27:26,886 - INFO - Successfully processed batch 79
+2025-07-17 22:27:28,887 - INFO - Processing batch 80/804 (chunks 276-280/3899)
+2025-07-17 22:27:29,155 - INFO - Successfully processed batch 80
+2025-07-17 22:27:31,156 - INFO - Processing batch 81/804 (chunks 281-285/3899)
+2025-07-17 22:27:31,507 - INFO - Successfully processed batch 81
+2025-07-17 22:27:31,514 - INFO - Checkpoint saved at batch 80
+2025-07-17 22:27:31,515 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:33,516 - INFO - Processing batch 82/804 (chunks 286-290/3899)
+2025-07-17 22:27:33,775 - INFO - Successfully processed batch 82
+2025-07-17 22:27:35,776 - INFO - Processing batch 83/804 (chunks 291-295/3899)
+2025-07-17 22:27:35,965 - INFO - Successfully processed batch 83
+2025-07-17 22:27:37,966 - INFO - Processing batch 84/804 (chunks 296-300/3899)
+2025-07-17 22:27:38,156 - INFO - Successfully processed batch 84
+2025-07-17 22:27:38,165 - INFO - Checkpoint saved at batch 83
+2025-07-17 22:27:38,166 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:40,167 - INFO - Processing batch 85/804 (chunks 301-305/3899)
+2025-07-17 22:27:40,404 - INFO - Successfully processed batch 85
+2025-07-17 22:27:42,405 - INFO - Processing batch 86/804 (chunks 306-310/3899)
+2025-07-17 22:27:42,597 - INFO - Successfully processed batch 86
+2025-07-17 22:27:44,598 - INFO - Processing batch 87/804 (chunks 311-315/3899)
+2025-07-17 22:27:44,781 - INFO - Successfully processed batch 87
+2025-07-17 22:27:44,790 - INFO - Checkpoint saved at batch 86
+2025-07-17 22:27:44,791 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:46,793 - INFO - Processing batch 88/804 (chunks 316-320/3899)
+2025-07-17 22:27:46,977 - INFO - Successfully processed batch 88
+2025-07-17 22:27:48,978 - INFO - Processing batch 89/804 (chunks 321-325/3899)
+2025-07-17 22:27:49,166 - INFO - Successfully processed batch 89
+2025-07-17 22:27:51,167 - INFO - Processing batch 90/804 (chunks 326-330/3899)
+2025-07-17 22:27:51,350 - INFO - Successfully processed batch 90
+2025-07-17 22:27:51,359 - INFO - Checkpoint saved at batch 89
+2025-07-17 22:27:51,361 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:53,361 - INFO - Processing batch 91/804 (chunks 331-335/3899)
+2025-07-17 22:27:53,538 - INFO - Successfully processed batch 91
+2025-07-17 22:27:55,540 - INFO - Processing batch 92/804 (chunks 336-340/3899)
+2025-07-17 22:27:55,724 - INFO - Successfully processed batch 92
+2025-07-17 22:27:57,725 - INFO - Processing batch 93/804 (chunks 341-345/3899)
+2025-07-17 22:27:57,923 - INFO - Successfully processed batch 93
+2025-07-17 22:27:57,931 - INFO - Checkpoint saved at batch 92
+2025-07-17 22:27:57,933 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:27:59,934 - INFO - Processing batch 94/804 (chunks 346-350/3899)
+2025-07-17 22:28:00,119 - INFO - Successfully processed batch 94
+2025-07-17 22:28:02,120 - INFO - Processing batch 95/804 (chunks 351-355/3899)
+2025-07-17 22:28:02,370 - INFO - Successfully processed batch 95
+2025-07-17 22:28:04,371 - INFO - Processing batch 96/804 (chunks 356-360/3899)
+2025-07-17 22:28:04,554 - INFO - Successfully processed batch 96
+2025-07-17 22:28:04,563 - INFO - Checkpoint saved at batch 95
+2025-07-17 22:28:04,564 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:06,565 - INFO - Processing batch 97/804 (chunks 361-365/3899)
+2025-07-17 22:28:06,749 - INFO - Successfully processed batch 97
+2025-07-17 22:28:08,750 - INFO - Processing batch 98/804 (chunks 366-370/3899)
+2025-07-17 22:28:08,940 - INFO - Successfully processed batch 98
+2025-07-17 22:28:10,942 - INFO - Processing batch 99/804 (chunks 371-375/3899)
+2025-07-17 22:28:11,124 - INFO - Successfully processed batch 99
+2025-07-17 22:28:11,131 - INFO - Checkpoint saved at batch 98
+2025-07-17 22:28:11,134 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:13,135 - INFO - Processing batch 100/804 (chunks 376-380/3899)
+2025-07-17 22:28:13,323 - INFO - Successfully processed batch 100
+2025-07-17 22:28:15,324 - INFO - Processing batch 101/804 (chunks 381-385/3899)
+2025-07-17 22:28:15,528 - INFO - Successfully processed batch 101
+2025-07-17 22:28:17,529 - INFO - Processing batch 102/804 (chunks 386-390/3899)
+2025-07-17 22:28:17,721 - INFO - Successfully processed batch 102
+2025-07-17 22:28:17,730 - INFO - Checkpoint saved at batch 101
+2025-07-17 22:28:17,731 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:19,733 - INFO - Processing batch 103/804 (chunks 391-395/3899)
+2025-07-17 22:28:20,016 - INFO - Successfully processed batch 103
+2025-07-17 22:28:22,018 - INFO - Processing batch 104/804 (chunks 396-400/3899)
+2025-07-17 22:28:22,200 - INFO - Successfully processed batch 104
+2025-07-17 22:28:24,201 - INFO - Processing batch 105/804 (chunks 401-405/3899)
+2025-07-17 22:28:24,390 - INFO - Successfully processed batch 105
+2025-07-17 22:28:24,400 - INFO - Checkpoint saved at batch 104
+2025-07-17 22:28:24,403 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:26,403 - INFO - Processing batch 106/804 (chunks 406-410/3899)
+2025-07-17 22:28:26,593 - INFO - Successfully processed batch 106
+2025-07-17 22:28:28,594 - INFO - Processing batch 107/804 (chunks 411-415/3899)
+2025-07-17 22:28:28,782 - INFO - Successfully processed batch 107
+2025-07-17 22:28:30,783 - INFO - Processing batch 108/804 (chunks 416-420/3899)
+2025-07-17 22:28:31,069 - INFO - Successfully processed batch 108
+2025-07-17 22:28:31,078 - INFO - Checkpoint saved at batch 107
+2025-07-17 22:28:31,080 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:33,081 - INFO - Processing batch 109/804 (chunks 421-425/3899)
+2025-07-17 22:28:33,268 - INFO - Successfully processed batch 109
+2025-07-17 22:28:35,269 - INFO - Processing batch 110/804 (chunks 426-430/3899)
+2025-07-17 22:28:35,458 - INFO - Successfully processed batch 110
+2025-07-17 22:28:37,459 - INFO - Processing batch 111/804 (chunks 431-435/3899)
+2025-07-17 22:28:37,655 - INFO - Successfully processed batch 111
+2025-07-17 22:28:37,666 - INFO - Checkpoint saved at batch 110
+2025-07-17 22:28:37,669 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:39,670 - INFO - Processing batch 112/804 (chunks 436-440/3899)
+2025-07-17 22:28:39,949 - INFO - Successfully processed batch 112
+2025-07-17 22:28:41,951 - INFO - Processing batch 113/804 (chunks 441-445/3899)
+2025-07-17 22:28:42,143 - INFO - Successfully processed batch 113
+2025-07-17 22:28:44,144 - INFO - Processing batch 114/804 (chunks 446-450/3899)
+2025-07-17 22:28:44,391 - INFO - Successfully processed batch 114
+2025-07-17 22:28:44,402 - INFO - Checkpoint saved at batch 113
+2025-07-17 22:28:44,404 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:46,404 - INFO - Processing batch 115/804 (chunks 451-455/3899)
+2025-07-17 22:28:46,586 - INFO - Successfully processed batch 115
+2025-07-17 22:28:48,587 - INFO - Processing batch 116/804 (chunks 456-460/3899)
+2025-07-17 22:28:48,772 - INFO - Successfully processed batch 116
+2025-07-17 22:28:50,774 - INFO - Processing batch 117/804 (chunks 461-465/3899)
+2025-07-17 22:28:50,967 - INFO - Successfully processed batch 117
+2025-07-17 22:28:50,978 - INFO - Checkpoint saved at batch 116
+2025-07-17 22:28:50,979 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:52,980 - INFO - Processing batch 118/804 (chunks 466-470/3899)
+2025-07-17 22:28:53,168 - INFO - Successfully processed batch 118
+2025-07-17 22:28:55,169 - INFO - Processing batch 119/804 (chunks 471-475/3899)
+2025-07-17 22:28:55,359 - INFO - Successfully processed batch 119
+2025-07-17 22:28:57,360 - INFO - Processing batch 120/804 (chunks 476-480/3899)
+2025-07-17 22:28:57,540 - INFO - Successfully processed batch 120
+2025-07-17 22:28:57,550 - INFO - Checkpoint saved at batch 119
+2025-07-17 22:28:57,553 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:28:59,553 - INFO - Processing batch 121/804 (chunks 481-485/3899)
+2025-07-17 22:28:59,754 - INFO - Successfully processed batch 121
+2025-07-17 22:29:01,755 - INFO - Processing batch 122/804 (chunks 486-490/3899)
+2025-07-17 22:29:01,939 - INFO - Successfully processed batch 122
+2025-07-17 22:29:03,940 - INFO - Processing batch 123/804 (chunks 491-495/3899)
+2025-07-17 22:29:04,218 - INFO - Successfully processed batch 123
+2025-07-17 22:29:04,229 - INFO - Checkpoint saved at batch 122
+2025-07-17 22:29:04,230 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:06,232 - INFO - Processing batch 124/804 (chunks 496-500/3899)
+2025-07-17 22:29:06,419 - INFO - Successfully processed batch 124
+2025-07-17 22:29:08,421 - INFO - Processing batch 125/804 (chunks 501-505/3899)
+2025-07-17 22:29:08,676 - INFO - Successfully processed batch 125
+2025-07-17 22:29:10,677 - INFO - Processing batch 126/804 (chunks 506-510/3899)
+2025-07-17 22:29:10,864 - INFO - Successfully processed batch 126
+2025-07-17 22:29:10,875 - INFO - Checkpoint saved at batch 125
+2025-07-17 22:29:10,876 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:12,877 - INFO - Processing batch 127/804 (chunks 511-515/3899)
+2025-07-17 22:29:13,072 - INFO - Successfully processed batch 127
+2025-07-17 22:29:15,073 - INFO - Processing batch 128/804 (chunks 516-520/3899)
+2025-07-17 22:29:15,267 - INFO - Successfully processed batch 128
+2025-07-17 22:29:17,269 - INFO - Processing batch 129/804 (chunks 521-525/3899)
+2025-07-17 22:29:17,457 - INFO - Successfully processed batch 129
+2025-07-17 22:29:17,468 - INFO - Checkpoint saved at batch 128
+2025-07-17 22:29:17,470 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:19,471 - INFO - Processing batch 130/804 (chunks 526-530/3899)
+2025-07-17 22:29:19,654 - INFO - Successfully processed batch 130
+2025-07-17 22:29:21,655 - INFO - Processing batch 131/804 (chunks 531-535/3899)
+2025-07-17 22:29:21,835 - INFO - Successfully processed batch 131
+2025-07-17 22:29:23,836 - INFO - Processing batch 132/804 (chunks 536-540/3899)
+2025-07-17 22:29:24,017 - INFO - Successfully processed batch 132
+2025-07-17 22:29:24,028 - INFO - Checkpoint saved at batch 131
+2025-07-17 22:29:24,030 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:26,031 - INFO - Processing batch 133/804 (chunks 541-545/3899)
+2025-07-17 22:29:26,246 - INFO - Successfully processed batch 133
+2025-07-17 22:29:28,247 - INFO - Processing batch 134/804 (chunks 546-550/3899)
+2025-07-17 22:29:28,434 - INFO - Successfully processed batch 134
+2025-07-17 22:29:30,435 - INFO - Processing batch 135/804 (chunks 551-555/3899)
+2025-07-17 22:29:30,691 - INFO - Successfully processed batch 135
+2025-07-17 22:29:30,703 - INFO - Checkpoint saved at batch 134
+2025-07-17 22:29:30,705 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:32,706 - INFO - Processing batch 136/804 (chunks 556-560/3899)
+2025-07-17 22:29:32,953 - INFO - Successfully processed batch 136
+2025-07-17 22:29:34,954 - INFO - Processing batch 137/804 (chunks 561-565/3899)
+2025-07-17 22:29:35,289 - INFO - Successfully processed batch 137
+2025-07-17 22:29:37,290 - INFO - Processing batch 138/804 (chunks 566-570/3899)
+2025-07-17 22:29:37,471 - INFO - Successfully processed batch 138
+2025-07-17 22:29:37,483 - INFO - Checkpoint saved at batch 137
+2025-07-17 22:29:37,486 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:39,486 - INFO - Processing batch 139/804 (chunks 571-575/3899)
+2025-07-17 22:29:39,770 - INFO - Successfully processed batch 139
+2025-07-17 22:29:41,771 - INFO - Processing batch 140/804 (chunks 576-580/3899)
+2025-07-17 22:29:41,962 - INFO - Successfully processed batch 140
+2025-07-17 22:29:43,962 - INFO - Processing batch 141/804 (chunks 581-585/3899)
+2025-07-17 22:29:44,148 - INFO - Successfully processed batch 141
+2025-07-17 22:29:44,160 - INFO - Checkpoint saved at batch 140
+2025-07-17 22:29:44,161 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:46,162 - INFO - Processing batch 142/804 (chunks 586-590/3899)
+2025-07-17 22:29:46,348 - INFO - Successfully processed batch 142
+2025-07-17 22:29:48,349 - INFO - Processing batch 143/804 (chunks 591-595/3899)
+2025-07-17 22:29:48,534 - INFO - Successfully processed batch 143
+2025-07-17 22:29:50,535 - INFO - Processing batch 144/804 (chunks 596-600/3899)
+2025-07-17 22:29:50,731 - INFO - Successfully processed batch 144
+2025-07-17 22:29:50,742 - INFO - Checkpoint saved at batch 143
+2025-07-17 22:29:50,744 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:52,746 - INFO - Processing batch 145/804 (chunks 601-605/3899)
+2025-07-17 22:29:52,935 - INFO - Successfully processed batch 145
+2025-07-17 22:29:54,935 - INFO - Processing batch 146/804 (chunks 606-610/3899)
+2025-07-17 22:29:55,123 - INFO - Successfully processed batch 146
+2025-07-17 22:29:57,124 - INFO - Processing batch 147/804 (chunks 611-615/3899)
+2025-07-17 22:29:57,310 - INFO - Successfully processed batch 147
+2025-07-17 22:29:57,321 - INFO - Checkpoint saved at batch 146
+2025-07-17 22:29:57,323 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:29:59,325 - INFO - Processing batch 148/804 (chunks 616-620/3899)
+2025-07-17 22:29:59,517 - INFO - Successfully processed batch 148
+2025-07-17 22:30:01,518 - INFO - Processing batch 149/804 (chunks 621-625/3899)
+2025-07-17 22:30:01,706 - INFO - Successfully processed batch 149
+2025-07-17 22:30:03,708 - INFO - Processing batch 150/804 (chunks 626-630/3899)
+2025-07-17 22:30:03,900 - INFO - Successfully processed batch 150
+2025-07-17 22:30:03,911 - INFO - Checkpoint saved at batch 149
+2025-07-17 22:30:03,913 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:05,914 - INFO - Processing batch 151/804 (chunks 631-635/3899)
+2025-07-17 22:30:06,109 - INFO - Successfully processed batch 151
+2025-07-17 22:30:08,110 - INFO - Processing batch 152/804 (chunks 636-640/3899)
+2025-07-17 22:30:08,297 - INFO - Successfully processed batch 152
+2025-07-17 22:30:10,298 - INFO - Processing batch 153/804 (chunks 641-645/3899)
+2025-07-17 22:30:10,487 - INFO - Successfully processed batch 153
+2025-07-17 22:30:10,500 - INFO - Checkpoint saved at batch 152
+2025-07-17 22:30:10,502 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:12,503 - INFO - Processing batch 154/804 (chunks 646-650/3899)
+2025-07-17 22:30:12,693 - INFO - Successfully processed batch 154
+2025-07-17 22:30:14,694 - INFO - Processing batch 155/804 (chunks 651-655/3899)
+2025-07-17 22:30:14,886 - INFO - Successfully processed batch 155
+2025-07-17 22:30:16,887 - INFO - Processing batch 156/804 (chunks 656-660/3899)
+2025-07-17 22:30:17,167 - INFO - Successfully processed batch 156
+2025-07-17 22:30:17,180 - INFO - Checkpoint saved at batch 155
+2025-07-17 22:30:17,181 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:19,183 - INFO - Processing batch 157/804 (chunks 661-665/3899)
+2025-07-17 22:30:19,375 - INFO - Successfully processed batch 157
+2025-07-17 22:30:21,376 - INFO - Processing batch 158/804 (chunks 666-670/3899)
+2025-07-17 22:30:21,565 - INFO - Successfully processed batch 158
+2025-07-17 22:30:23,567 - INFO - Processing batch 159/804 (chunks 671-675/3899)
+2025-07-17 22:30:23,761 - INFO - Successfully processed batch 159
+2025-07-17 22:30:23,774 - INFO - Checkpoint saved at batch 158
+2025-07-17 22:30:23,777 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:25,777 - INFO - Processing batch 160/804 (chunks 676-680/3899)
+2025-07-17 22:30:25,967 - INFO - Successfully processed batch 160
+2025-07-17 22:30:27,968 - INFO - Processing batch 161/804 (chunks 681-685/3899)
+2025-07-17 22:30:28,154 - INFO - Successfully processed batch 161
+2025-07-17 22:30:30,155 - INFO - Processing batch 162/804 (chunks 686-690/3899)
+2025-07-17 22:30:30,411 - INFO - Successfully processed batch 162
+2025-07-17 22:30:30,424 - INFO - Checkpoint saved at batch 161
+2025-07-17 22:30:30,427 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:32,427 - INFO - Processing batch 163/804 (chunks 691-695/3899)
+2025-07-17 22:30:32,614 - INFO - Successfully processed batch 163
+2025-07-17 22:30:34,616 - INFO - Processing batch 164/804 (chunks 696-700/3899)
+2025-07-17 22:30:34,879 - INFO - Successfully processed batch 164
+2025-07-17 22:30:36,880 - INFO - Processing batch 165/804 (chunks 701-705/3899)
+2025-07-17 22:30:37,324 - INFO - Successfully processed batch 165
+2025-07-17 22:30:37,338 - INFO - Checkpoint saved at batch 164
+2025-07-17 22:30:37,340 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:39,341 - INFO - Processing batch 166/804 (chunks 706-710/3899)
+2025-07-17 22:30:39,804 - INFO - Successfully processed batch 166
+2025-07-17 22:30:41,806 - INFO - Processing batch 167/804 (chunks 711-715/3899)
+2025-07-17 22:30:42,264 - INFO - Successfully processed batch 167
+2025-07-17 22:30:44,266 - INFO - Processing batch 168/804 (chunks 716-720/3899)
+2025-07-17 22:30:44,544 - INFO - Successfully processed batch 168
+2025-07-17 22:30:44,558 - INFO - Checkpoint saved at batch 167
+2025-07-17 22:30:44,560 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:46,561 - INFO - Processing batch 169/804 (chunks 721-725/3899)
+2025-07-17 22:30:46,817 - INFO - Successfully processed batch 169
+2025-07-17 22:30:48,817 - INFO - Processing batch 170/804 (chunks 726-730/3899)
+2025-07-17 22:30:49,171 - INFO - Successfully processed batch 170
+2025-07-17 22:30:51,172 - INFO - Processing batch 171/804 (chunks 731-735/3899)
+2025-07-17 22:30:51,451 - INFO - Successfully processed batch 171
+2025-07-17 22:30:51,466 - INFO - Checkpoint saved at batch 170
+2025-07-17 22:30:51,468 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:30:53,469 - INFO - Processing batch 172/804 (chunks 736-740/3899)
+2025-07-17 22:30:53,654 - INFO - Successfully processed batch 172
+2025-07-17 22:30:55,656 - INFO - Processing batch 173/804 (chunks 741-745/3899)
+2025-07-17 22:30:55,931 - INFO - Successfully processed batch 173
+2025-07-17 22:30:57,931 - INFO - Processing batch 174/804 (chunks 746-750/3899)
+2025-07-17 22:30:58,120 - INFO - Successfully processed batch 174
+2025-07-17 22:30:58,133 - INFO - Checkpoint saved at batch 173
+2025-07-17 22:30:58,136 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:00,137 - INFO - Processing batch 175/804 (chunks 751-755/3899)
+2025-07-17 22:31:00,323 - INFO - Successfully processed batch 175
+2025-07-17 22:31:02,325 - INFO - Processing batch 176/804 (chunks 756-760/3899)
+2025-07-17 22:31:02,520 - INFO - Successfully processed batch 176
+2025-07-17 22:31:04,520 - INFO - Processing batch 177/804 (chunks 761-765/3899)
+2025-07-17 22:31:04,710 - INFO - Successfully processed batch 177
+2025-07-17 22:31:04,726 - INFO - Checkpoint saved at batch 176
+2025-07-17 22:31:04,728 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:06,728 - INFO - Processing batch 178/804 (chunks 766-770/3899)
+2025-07-17 22:31:06,911 - INFO - Successfully processed batch 178
+2025-07-17 22:31:08,913 - INFO - Processing batch 179/804 (chunks 771-775/3899)
+2025-07-17 22:31:09,170 - INFO - Successfully processed batch 179
+2025-07-17 22:31:11,171 - INFO - Processing batch 180/804 (chunks 776-780/3899)
+2025-07-17 22:31:11,364 - INFO - Successfully processed batch 180
+2025-07-17 22:31:11,378 - INFO - Checkpoint saved at batch 179
+2025-07-17 22:31:11,380 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:13,381 - INFO - Processing batch 181/804 (chunks 781-785/3899)
+2025-07-17 22:31:13,572 - INFO - Successfully processed batch 181
+2025-07-17 22:31:15,573 - INFO - Processing batch 182/804 (chunks 786-790/3899)
+2025-07-17 22:31:15,760 - INFO - Successfully processed batch 182
+2025-07-17 22:31:17,761 - INFO - Processing batch 183/804 (chunks 791-795/3899)
+2025-07-17 22:31:17,957 - INFO - Successfully processed batch 183
+2025-07-17 22:31:17,971 - INFO - Checkpoint saved at batch 182
+2025-07-17 22:31:17,973 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:19,974 - INFO - Processing batch 184/804 (chunks 796-800/3899)
+2025-07-17 22:31:20,160 - INFO - Successfully processed batch 184
+2025-07-17 22:31:22,161 - INFO - Processing batch 185/804 (chunks 801-805/3899)
+2025-07-17 22:31:22,341 - INFO - Successfully processed batch 185
+2025-07-17 22:31:24,341 - INFO - Processing batch 186/804 (chunks 806-810/3899)
+2025-07-17 22:31:24,540 - INFO - Successfully processed batch 186
+2025-07-17 22:31:24,554 - INFO - Checkpoint saved at batch 185
+2025-07-17 22:31:24,557 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:26,558 - INFO - Processing batch 187/804 (chunks 811-815/3899)
+2025-07-17 22:31:26,839 - INFO - Successfully processed batch 187
+2025-07-17 22:31:28,840 - INFO - Processing batch 188/804 (chunks 816-820/3899)
+2025-07-17 22:31:29,031 - INFO - Successfully processed batch 188
+2025-07-17 22:31:31,032 - INFO - Processing batch 189/804 (chunks 821-825/3899)
+2025-07-17 22:31:31,222 - INFO - Successfully processed batch 189
+2025-07-17 22:31:31,237 - INFO - Checkpoint saved at batch 188
+2025-07-17 22:31:31,239 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:33,240 - INFO - Processing batch 190/804 (chunks 826-830/3899)
+2025-07-17 22:31:33,523 - INFO - Successfully processed batch 190
+2025-07-17 22:31:35,525 - INFO - Processing batch 191/804 (chunks 831-835/3899)
+2025-07-17 22:31:35,764 - INFO - Successfully processed batch 191
+2025-07-17 22:31:37,766 - INFO - Processing batch 192/804 (chunks 836-840/3899)
+2025-07-17 22:31:38,037 - INFO - Successfully processed batch 192
+2025-07-17 22:31:38,052 - INFO - Checkpoint saved at batch 191
+2025-07-17 22:31:38,054 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:40,055 - INFO - Processing batch 193/804 (chunks 841-845/3899)
+2025-07-17 22:31:40,242 - INFO - Successfully processed batch 193
+2025-07-17 22:31:42,244 - INFO - Processing batch 194/804 (chunks 846-850/3899)
+2025-07-17 22:31:42,524 - INFO - Successfully processed batch 194
+2025-07-17 22:31:44,526 - INFO - Processing batch 195/804 (chunks 851-855/3899)
+2025-07-17 22:31:44,780 - INFO - Successfully processed batch 195
+2025-07-17 22:31:44,796 - INFO - Checkpoint saved at batch 194
+2025-07-17 22:31:44,798 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:46,799 - INFO - Processing batch 196/804 (chunks 856-860/3899)
+2025-07-17 22:31:46,986 - INFO - Successfully processed batch 196
+2025-07-17 22:31:48,987 - INFO - Processing batch 197/804 (chunks 861-865/3899)
+2025-07-17 22:31:49,241 - INFO - Successfully processed batch 197
+2025-07-17 22:31:51,242 - INFO - Processing batch 198/804 (chunks 866-870/3899)
+2025-07-17 22:31:51,427 - INFO - Successfully processed batch 198
+2025-07-17 22:31:51,442 - INFO - Checkpoint saved at batch 197
+2025-07-17 22:31:51,444 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:31:53,444 - INFO - Processing batch 199/804 (chunks 871-875/3899)
+2025-07-17 22:31:53,631 - INFO - Successfully processed batch 199
+2025-07-17 22:31:55,632 - INFO - Processing batch 200/804 (chunks 876-880/3899)
+2025-07-17 22:31:55,910 - INFO - Successfully processed batch 200
+2025-07-17 22:31:57,910 - INFO - Processing batch 201/804 (chunks 881-885/3899)
+2025-07-17 22:31:58,092 - INFO - Successfully processed batch 201
+2025-07-17 22:31:58,108 - INFO - Checkpoint saved at batch 200
+2025-07-17 22:31:58,110 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:00,111 - INFO - Processing batch 202/804 (chunks 886-890/3899)
+2025-07-17 22:32:00,299 - INFO - Successfully processed batch 202
+2025-07-17 22:32:02,300 - INFO - Processing batch 203/804 (chunks 891-895/3899)
+2025-07-17 22:32:02,486 - INFO - Successfully processed batch 203
+2025-07-17 22:32:04,487 - INFO - Processing batch 204/804 (chunks 896-900/3899)
+2025-07-17 22:32:04,743 - INFO - Successfully processed batch 204
+2025-07-17 22:32:04,761 - INFO - Checkpoint saved at batch 203
+2025-07-17 22:32:04,763 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:06,763 - INFO - Processing batch 205/804 (chunks 901-905/3899)
+2025-07-17 22:32:06,946 - INFO - Successfully processed batch 205
+2025-07-17 22:32:08,946 - INFO - Processing batch 206/804 (chunks 906-910/3899)
+2025-07-17 22:32:09,134 - INFO - Successfully processed batch 206
+2025-07-17 22:32:11,135 - INFO - Processing batch 207/804 (chunks 911-915/3899)
+2025-07-17 22:32:11,321 - INFO - Successfully processed batch 207
+2025-07-17 22:32:11,338 - INFO - Checkpoint saved at batch 206
+2025-07-17 22:32:11,340 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:13,340 - INFO - Processing batch 208/804 (chunks 916-920/3899)
+2025-07-17 22:32:13,526 - INFO - Successfully processed batch 208
+2025-07-17 22:32:15,527 - INFO - Processing batch 209/804 (chunks 921-925/3899)
+2025-07-17 22:32:15,717 - INFO - Successfully processed batch 209
+2025-07-17 22:32:17,718 - INFO - Processing batch 210/804 (chunks 926-930/3899)
+2025-07-17 22:32:17,902 - INFO - Successfully processed batch 210
+2025-07-17 22:32:17,919 - INFO - Checkpoint saved at batch 209
+2025-07-17 22:32:17,921 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:19,922 - INFO - Processing batch 211/804 (chunks 931-935/3899)
+2025-07-17 22:32:20,108 - INFO - Successfully processed batch 211
+2025-07-17 22:32:22,109 - INFO - Processing batch 212/804 (chunks 936-940/3899)
+2025-07-17 22:32:22,291 - INFO - Successfully processed batch 212
+2025-07-17 22:32:24,291 - INFO - Processing batch 213/804 (chunks 941-945/3899)
+2025-07-17 22:32:24,480 - INFO - Successfully processed batch 213
+2025-07-17 22:32:24,497 - INFO - Checkpoint saved at batch 212
+2025-07-17 22:32:24,500 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:26,500 - INFO - Processing batch 214/804 (chunks 946-950/3899)
+2025-07-17 22:32:26,680 - INFO - Successfully processed batch 214
+2025-07-17 22:32:28,681 - INFO - Processing batch 215/804 (chunks 951-955/3899)
+2025-07-17 22:32:28,964 - INFO - Successfully processed batch 215
+2025-07-17 22:32:30,965 - INFO - Processing batch 216/804 (chunks 956-960/3899)
+2025-07-17 22:32:31,160 - INFO - Successfully processed batch 216
+2025-07-17 22:32:31,192 - INFO - Checkpoint saved at batch 215
+2025-07-17 22:32:31,194 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:33,195 - INFO - Processing batch 217/804 (chunks 961-965/3899)
+2025-07-17 22:32:33,381 - INFO - Successfully processed batch 217
+2025-07-17 22:32:35,382 - INFO - Processing batch 218/804 (chunks 966-970/3899)
+2025-07-17 22:32:35,668 - INFO - Successfully processed batch 218
+2025-07-17 22:32:37,669 - INFO - Processing batch 219/804 (chunks 971-975/3899)
+2025-07-17 22:32:37,859 - INFO - Successfully processed batch 219
+2025-07-17 22:32:37,876 - INFO - Checkpoint saved at batch 218
+2025-07-17 22:32:37,878 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:39,879 - INFO - Processing batch 220/804 (chunks 976-980/3899)
+2025-07-17 22:32:40,222 - INFO - Successfully processed batch 220
+2025-07-17 22:32:42,223 - INFO - Processing batch 221/804 (chunks 981-985/3899)
+2025-07-17 22:32:42,684 - INFO - Successfully processed batch 221
+2025-07-17 22:32:44,686 - INFO - Processing batch 222/804 (chunks 986-990/3899)
+2025-07-17 22:32:44,955 - INFO - Successfully processed batch 222
+2025-07-17 22:32:44,973 - INFO - Checkpoint saved at batch 221
+2025-07-17 22:32:44,975 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:46,976 - INFO - Processing batch 223/804 (chunks 991-995/3899)
+2025-07-17 22:32:47,174 - INFO - Successfully processed batch 223
+2025-07-17 22:32:49,175 - INFO - Processing batch 224/804 (chunks 996-1000/3899)
+2025-07-17 22:32:49,360 - INFO - Successfully processed batch 224
+2025-07-17 22:32:51,362 - INFO - Processing batch 225/804 (chunks 1001-1005/3899)
+2025-07-17 22:32:51,678 - INFO - Successfully processed batch 225
+2025-07-17 22:32:51,696 - INFO - Checkpoint saved at batch 224
+2025-07-17 22:32:51,698 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:32:53,699 - INFO - Processing batch 226/804 (chunks 1006-1010/3899)
+2025-07-17 22:32:53,984 - INFO - Successfully processed batch 226
+2025-07-17 22:32:55,985 - INFO - Processing batch 227/804 (chunks 1011-1015/3899)
+2025-07-17 22:32:56,175 - INFO - Successfully processed batch 227
+2025-07-17 22:32:58,176 - INFO - Processing batch 228/804 (chunks 1016-1020/3899)
+2025-07-17 22:32:58,459 - INFO - Successfully processed batch 228
+2025-07-17 22:32:58,476 - INFO - Checkpoint saved at batch 227
+2025-07-17 22:32:58,479 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:00,479 - INFO - Processing batch 229/804 (chunks 1021-1025/3899)
+2025-07-17 22:33:00,668 - INFO - Successfully processed batch 229
+2025-07-17 22:33:02,669 - INFO - Processing batch 230/804 (chunks 1026-1030/3899)
+2025-07-17 22:33:02,852 - INFO - Successfully processed batch 230
+2025-07-17 22:33:04,853 - INFO - Processing batch 231/804 (chunks 1031-1035/3899)
+2025-07-17 22:33:05,037 - INFO - Successfully processed batch 231
+2025-07-17 22:33:05,056 - INFO - Checkpoint saved at batch 230
+2025-07-17 22:33:05,059 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:07,060 - INFO - Processing batch 232/804 (chunks 1036-1040/3899)
+2025-07-17 22:33:07,258 - INFO - Successfully processed batch 232
+2025-07-17 22:33:09,259 - INFO - Processing batch 233/804 (chunks 1041-1045/3899)
+2025-07-17 22:33:09,453 - INFO - Successfully processed batch 233
+2025-07-17 22:33:11,453 - INFO - Processing batch 234/804 (chunks 1046-1050/3899)
+2025-07-17 22:33:11,641 - INFO - Successfully processed batch 234
+2025-07-17 22:33:11,660 - INFO - Checkpoint saved at batch 233
+2025-07-17 22:33:11,662 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:13,663 - INFO - Processing batch 235/804 (chunks 1051-1055/3899)
+2025-07-17 22:33:13,877 - INFO - Successfully processed batch 235
+2025-07-17 22:33:15,879 - INFO - Processing batch 236/804 (chunks 1056-1060/3899)
+2025-07-17 22:33:16,069 - INFO - Successfully processed batch 236
+2025-07-17 22:33:18,070 - INFO - Processing batch 237/804 (chunks 1061-1065/3899)
+2025-07-17 22:33:18,256 - INFO - Successfully processed batch 237
+2025-07-17 22:33:18,275 - INFO - Checkpoint saved at batch 236
+2025-07-17 22:33:18,277 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:20,278 - INFO - Processing batch 238/804 (chunks 1066-1070/3899)
+2025-07-17 22:33:20,464 - INFO - Successfully processed batch 238
+2025-07-17 22:33:22,466 - INFO - Processing batch 239/804 (chunks 1071-1075/3899)
+2025-07-17 22:33:22,657 - INFO - Successfully processed batch 239
+2025-07-17 22:33:24,658 - INFO - Processing batch 240/804 (chunks 1076-1080/3899)
+2025-07-17 22:33:24,851 - INFO - Successfully processed batch 240
+2025-07-17 22:33:24,869 - INFO - Checkpoint saved at batch 239
+2025-07-17 22:33:24,871 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:26,872 - INFO - Processing batch 241/804 (chunks 1081-1085/3899)
+2025-07-17 22:33:27,152 - INFO - Successfully processed batch 241
+2025-07-17 22:33:29,152 - INFO - Processing batch 242/804 (chunks 1086-1090/3899)
+2025-07-17 22:33:29,340 - INFO - Successfully processed batch 242
+2025-07-17 22:33:31,342 - INFO - Processing batch 243/804 (chunks 1091-1095/3899)
+2025-07-17 22:33:31,524 - INFO - Successfully processed batch 243
+2025-07-17 22:33:31,542 - INFO - Checkpoint saved at batch 242
+2025-07-17 22:33:31,544 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:33,545 - INFO - Processing batch 244/804 (chunks 1096-1100/3899)
+2025-07-17 22:33:33,826 - INFO - Successfully processed batch 244
+2025-07-17 22:33:35,827 - INFO - Processing batch 245/804 (chunks 1101-1105/3899)
+2025-07-17 22:33:36,018 - INFO - Successfully processed batch 245
+2025-07-17 22:33:38,020 - INFO - Processing batch 246/804 (chunks 1106-1110/3899)
+2025-07-17 22:33:38,210 - INFO - Successfully processed batch 246
+2025-07-17 22:33:38,230 - INFO - Checkpoint saved at batch 245
+2025-07-17 22:33:38,233 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:40,233 - INFO - Processing batch 247/804 (chunks 1111-1115/3899)
+2025-07-17 22:33:40,518 - INFO - Successfully processed batch 247
+2025-07-17 22:33:42,519 - INFO - Processing batch 248/804 (chunks 1116-1120/3899)
+2025-07-17 22:33:42,792 - INFO - Successfully processed batch 248
+2025-07-17 22:33:44,793 - INFO - Processing batch 249/804 (chunks 1121-1125/3899)
+2025-07-17 22:33:45,033 - INFO - Successfully processed batch 249
+2025-07-17 22:33:45,052 - INFO - Checkpoint saved at batch 248
+2025-07-17 22:33:45,054 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:47,055 - INFO - Processing batch 250/804 (chunks 1126-1130/3899)
+2025-07-17 22:33:47,250 - INFO - Successfully processed batch 250
+2025-07-17 22:33:49,252 - INFO - Processing batch 251/804 (chunks 1131-1135/3899)
+2025-07-17 22:33:49,538 - INFO - Successfully processed batch 251
+2025-07-17 22:33:51,539 - INFO - Processing batch 252/804 (chunks 1136-1140/3899)
+2025-07-17 22:33:51,735 - INFO - Successfully processed batch 252
+2025-07-17 22:33:51,754 - INFO - Checkpoint saved at batch 251
+2025-07-17 22:33:51,756 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:33:53,757 - INFO - Processing batch 253/804 (chunks 1141-1145/3899)
+2025-07-17 22:33:54,015 - INFO - Successfully processed batch 253
+2025-07-17 22:33:56,017 - INFO - Processing batch 254/804 (chunks 1146-1150/3899)
+2025-07-17 22:33:56,203 - INFO - Successfully processed batch 254
+2025-07-17 22:33:58,204 - INFO - Processing batch 255/804 (chunks 1151-1155/3899)
+2025-07-17 22:33:58,395 - INFO - Successfully processed batch 255
+2025-07-17 22:33:58,415 - INFO - Checkpoint saved at batch 254
+2025-07-17 22:33:58,417 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:00,418 - INFO - Processing batch 256/804 (chunks 1156-1160/3899)
+2025-07-17 22:34:00,607 - INFO - Successfully processed batch 256
+2025-07-17 22:34:02,608 - INFO - Processing batch 257/804 (chunks 1161-1165/3899)
+2025-07-17 22:34:02,803 - INFO - Successfully processed batch 257
+2025-07-17 22:34:04,804 - INFO - Processing batch 258/804 (chunks 1166-1170/3899)
+2025-07-17 22:34:04,992 - INFO - Successfully processed batch 258
+2025-07-17 22:34:05,012 - INFO - Checkpoint saved at batch 257
+2025-07-17 22:34:05,014 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:07,015 - INFO - Processing batch 259/804 (chunks 1171-1175/3899)
+2025-07-17 22:34:07,216 - INFO - Successfully processed batch 259
+2025-07-17 22:34:09,216 - INFO - Processing batch 260/804 (chunks 1176-1180/3899)
+2025-07-17 22:34:09,400 - INFO - Successfully processed batch 260
+2025-07-17 22:34:11,401 - INFO - Processing batch 261/804 (chunks 1181-1185/3899)
+2025-07-17 22:34:11,595 - INFO - Successfully processed batch 261
+2025-07-17 22:34:11,617 - INFO - Checkpoint saved at batch 260
+2025-07-17 22:34:11,619 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:13,620 - INFO - Processing batch 262/804 (chunks 1186-1190/3899)
+2025-07-17 22:34:13,906 - INFO - Successfully processed batch 262
+2025-07-17 22:34:15,907 - INFO - Processing batch 263/804 (chunks 1191-1195/3899)
+2025-07-17 22:34:16,100 - INFO - Successfully processed batch 263
+2025-07-17 22:34:18,101 - INFO - Processing batch 264/804 (chunks 1196-1200/3899)
+2025-07-17 22:34:18,297 - INFO - Successfully processed batch 264
+2025-07-17 22:34:18,316 - INFO - Checkpoint saved at batch 263
+2025-07-17 22:34:18,318 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:20,319 - INFO - Processing batch 265/804 (chunks 1201-1205/3899)
+2025-07-17 22:34:20,504 - INFO - Successfully processed batch 265
+2025-07-17 22:34:22,505 - INFO - Processing batch 266/804 (chunks 1206-1210/3899)
+2025-07-17 22:34:22,762 - INFO - Successfully processed batch 266
+2025-07-17 22:34:24,764 - INFO - Processing batch 267/804 (chunks 1211-1215/3899)
+2025-07-17 22:34:24,955 - INFO - Successfully processed batch 267
+2025-07-17 22:34:24,982 - INFO - Checkpoint saved at batch 266
+2025-07-17 22:34:24,985 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:26,986 - INFO - Processing batch 268/804 (chunks 1216-1220/3899)
+2025-07-17 22:34:27,238 - INFO - Successfully processed batch 268
+2025-07-17 22:34:29,240 - INFO - Processing batch 269/804 (chunks 1221-1225/3899)
+2025-07-17 22:34:29,423 - INFO - Successfully processed batch 269
+2025-07-17 22:34:31,425 - INFO - Processing batch 270/804 (chunks 1226-1230/3899)
+2025-07-17 22:34:31,613 - INFO - Successfully processed batch 270
+2025-07-17 22:34:31,635 - INFO - Checkpoint saved at batch 269
+2025-07-17 22:34:31,638 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:33,639 - INFO - Processing batch 271/804 (chunks 1231-1235/3899)
+2025-07-17 22:34:33,833 - INFO - Successfully processed batch 271
+2025-07-17 22:34:35,834 - INFO - Processing batch 272/804 (chunks 1236-1240/3899)
+2025-07-17 22:34:36,023 - INFO - Successfully processed batch 272
+2025-07-17 22:34:38,024 - INFO - Processing batch 273/804 (chunks 1241-1245/3899)
+2025-07-17 22:34:38,210 - INFO - Successfully processed batch 273
+2025-07-17 22:34:38,230 - INFO - Checkpoint saved at batch 272
+2025-07-17 22:34:38,232 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:40,233 - INFO - Processing batch 274/804 (chunks 1246-1250/3899)
+2025-07-17 22:34:40,522 - INFO - Successfully processed batch 274
+2025-07-17 22:34:42,523 - INFO - Processing batch 275/804 (chunks 1251-1255/3899)
+2025-07-17 22:34:42,712 - INFO - Successfully processed batch 275
+2025-07-17 22:34:44,714 - INFO - Processing batch 276/804 (chunks 1256-1260/3899)
+2025-07-17 22:34:44,898 - INFO - Successfully processed batch 276
+2025-07-17 22:34:44,918 - INFO - Checkpoint saved at batch 275
+2025-07-17 22:34:44,920 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:46,921 - INFO - Processing batch 277/804 (chunks 1261-1265/3899)
+2025-07-17 22:34:47,106 - INFO - Successfully processed batch 277
+2025-07-17 22:34:49,107 - INFO - Processing batch 278/804 (chunks 1266-1270/3899)
+2025-07-17 22:34:49,358 - INFO - Successfully processed batch 278
+2025-07-17 22:34:51,359 - INFO - Processing batch 279/804 (chunks 1271-1275/3899)
+2025-07-17 22:34:51,581 - INFO - Successfully processed batch 279
+2025-07-17 22:34:51,602 - INFO - Checkpoint saved at batch 278
+2025-07-17 22:34:51,605 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:34:53,606 - INFO - Processing batch 280/804 (chunks 1276-1280/3899)
+2025-07-17 22:34:53,888 - INFO - Successfully processed batch 280
+2025-07-17 22:34:55,889 - INFO - Processing batch 281/804 (chunks 1281-1285/3899)
+2025-07-17 22:34:56,094 - INFO - Successfully processed batch 281
+2025-07-17 22:34:58,096 - INFO - Processing batch 282/804 (chunks 1286-1290/3899)
+2025-07-17 22:34:58,289 - INFO - Successfully processed batch 282
+2025-07-17 22:34:58,310 - INFO - Checkpoint saved at batch 281
+2025-07-17 22:34:58,313 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:00,314 - INFO - Processing batch 283/804 (chunks 1291-1295/3899)
+2025-07-17 22:35:00,503 - INFO - Successfully processed batch 283
+2025-07-17 22:35:02,504 - INFO - Processing batch 284/804 (chunks 1296-1300/3899)
+2025-07-17 22:35:02,697 - INFO - Successfully processed batch 284
+2025-07-17 22:35:04,698 - INFO - Processing batch 285/804 (chunks 1301-1305/3899)
+2025-07-17 22:35:04,885 - INFO - Successfully processed batch 285
+2025-07-17 22:35:04,906 - INFO - Checkpoint saved at batch 284
+2025-07-17 22:35:04,909 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:06,910 - INFO - Processing batch 286/804 (chunks 1306-1310/3899)
+2025-07-17 22:35:07,088 - INFO - Successfully processed batch 286
+2025-07-17 22:35:09,088 - INFO - Processing batch 287/804 (chunks 1311-1315/3899)
+2025-07-17 22:35:09,340 - INFO - Successfully processed batch 287
+2025-07-17 22:35:11,340 - INFO - Processing batch 288/804 (chunks 1316-1320/3899)
+2025-07-17 22:35:11,526 - INFO - Successfully processed batch 288
+2025-07-17 22:35:11,549 - INFO - Checkpoint saved at batch 287
+2025-07-17 22:35:11,552 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:13,553 - INFO - Processing batch 289/804 (chunks 1321-1325/3899)
+2025-07-17 22:35:13,739 - INFO - Successfully processed batch 289
+2025-07-17 22:35:15,740 - INFO - Processing batch 290/804 (chunks 1326-1330/3899)
+2025-07-17 22:35:15,926 - INFO - Successfully processed batch 290
+2025-07-17 22:35:17,927 - INFO - Processing batch 291/804 (chunks 1331-1335/3899)
+2025-07-17 22:35:18,115 - INFO - Successfully processed batch 291
+2025-07-17 22:35:18,144 - INFO - Checkpoint saved at batch 290
+2025-07-17 22:35:18,147 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:20,148 - INFO - Processing batch 292/804 (chunks 1336-1340/3899)
+2025-07-17 22:35:20,334 - INFO - Successfully processed batch 292
+2025-07-17 22:35:22,335 - INFO - Processing batch 293/804 (chunks 1341-1345/3899)
+2025-07-17 22:35:22,533 - INFO - Successfully processed batch 293
+2025-07-17 22:35:24,533 - INFO - Processing batch 294/804 (chunks 1346-1350/3899)
+2025-07-17 22:35:24,722 - INFO - Successfully processed batch 294
+2025-07-17 22:35:24,751 - INFO - Checkpoint saved at batch 293
+2025-07-17 22:35:24,755 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:26,756 - INFO - Processing batch 295/804 (chunks 1351-1355/3899)
+2025-07-17 22:35:27,139 - INFO - Successfully processed batch 295
+2025-07-17 22:35:29,141 - INFO - Processing batch 296/804 (chunks 1356-1360/3899)
+2025-07-17 22:35:29,333 - INFO - Successfully processed batch 296
+2025-07-17 22:35:31,334 - INFO - Processing batch 297/804 (chunks 1361-1365/3899)
+2025-07-17 22:35:31,523 - INFO - Successfully processed batch 297
+2025-07-17 22:35:31,548 - INFO - Checkpoint saved at batch 296
+2025-07-17 22:35:31,550 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:33,552 - INFO - Processing batch 298/804 (chunks 1366-1370/3899)
+2025-07-17 22:35:33,739 - INFO - Successfully processed batch 298
+2025-07-17 22:35:35,740 - INFO - Processing batch 299/804 (chunks 1371-1375/3899)
+2025-07-17 22:35:36,024 - INFO - Successfully processed batch 299
+2025-07-17 22:35:38,025 - INFO - Processing batch 300/804 (chunks 1376-1380/3899)
+2025-07-17 22:35:38,206 - INFO - Successfully processed batch 300
+2025-07-17 22:35:38,231 - INFO - Checkpoint saved at batch 299
+2025-07-17 22:35:38,233 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:40,236 - INFO - Processing batch 301/804 (chunks 1381-1385/3899)
+2025-07-17 22:35:40,421 - INFO - Successfully processed batch 301
+2025-07-17 22:35:42,422 - INFO - Processing batch 302/804 (chunks 1386-1390/3899)
+2025-07-17 22:35:42,615 - INFO - Successfully processed batch 302
+2025-07-17 22:35:44,616 - INFO - Processing batch 303/804 (chunks 1391-1395/3899)
+2025-07-17 22:35:44,804 - INFO - Successfully processed batch 303
+2025-07-17 22:35:44,829 - INFO - Checkpoint saved at batch 302
+2025-07-17 22:35:44,832 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:46,833 - INFO - Processing batch 304/804 (chunks 1396-1400/3899)
+2025-07-17 22:35:47,016 - INFO - Successfully processed batch 304
+2025-07-17 22:35:49,017 - INFO - Processing batch 305/804 (chunks 1401-1405/3899)
+2025-07-17 22:35:49,299 - INFO - Successfully processed batch 305
+2025-07-17 22:35:51,300 - INFO - Processing batch 306/804 (chunks 1406-1410/3899)
+2025-07-17 22:35:51,483 - INFO - Successfully processed batch 306
+2025-07-17 22:35:51,513 - INFO - Checkpoint saved at batch 305
+2025-07-17 22:35:51,516 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:35:53,517 - INFO - Processing batch 307/804 (chunks 1411-1415/3899)
+2025-07-17 22:35:53,711 - INFO - Successfully processed batch 307
+2025-07-17 22:35:55,712 - INFO - Processing batch 308/804 (chunks 1416-1420/3899)
+2025-07-17 22:35:55,896 - INFO - Successfully processed batch 308
+2025-07-17 22:35:57,897 - INFO - Processing batch 309/804 (chunks 1421-1425/3899)
+2025-07-17 22:35:58,082 - INFO - Successfully processed batch 309
+2025-07-17 22:35:58,106 - INFO - Checkpoint saved at batch 308
+2025-07-17 22:35:58,108 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:00,109 - INFO - Processing batch 310/804 (chunks 1426-1430/3899)
+2025-07-17 22:36:00,293 - INFO - Successfully processed batch 310
+2025-07-17 22:36:02,294 - INFO - Processing batch 311/804 (chunks 1431-1435/3899)
+2025-07-17 22:36:02,485 - INFO - Successfully processed batch 311
+2025-07-17 22:36:04,486 - INFO - Processing batch 312/804 (chunks 1436-1440/3899)
+2025-07-17 22:36:04,680 - INFO - Successfully processed batch 312
+2025-07-17 22:36:04,705 - INFO - Checkpoint saved at batch 311
+2025-07-17 22:36:04,708 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:06,708 - INFO - Processing batch 313/804 (chunks 1441-1445/3899)
+2025-07-17 22:36:06,892 - INFO - Successfully processed batch 313
+2025-07-17 22:36:08,893 - INFO - Processing batch 314/804 (chunks 1446-1450/3899)
+2025-07-17 22:36:09,080 - INFO - Successfully processed batch 314
+2025-07-17 22:36:11,081 - INFO - Processing batch 315/804 (chunks 1451-1455/3899)
+2025-07-17 22:36:11,271 - INFO - Successfully processed batch 315
+2025-07-17 22:36:11,297 - INFO - Checkpoint saved at batch 314
+2025-07-17 22:36:11,299 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:13,300 - INFO - Processing batch 316/804 (chunks 1456-1460/3899)
+2025-07-17 22:36:13,485 - INFO - Successfully processed batch 316
+2025-07-17 22:36:15,486 - INFO - Processing batch 317/804 (chunks 1461-1465/3899)
+2025-07-17 22:36:15,740 - INFO - Successfully processed batch 317
+2025-07-17 22:36:17,740 - INFO - Processing batch 318/804 (chunks 1466-1470/3899)
+2025-07-17 22:36:17,927 - INFO - Successfully processed batch 318
+2025-07-17 22:36:17,952 - INFO - Checkpoint saved at batch 317
+2025-07-17 22:36:17,955 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:19,956 - INFO - Processing batch 319/804 (chunks 1471-1475/3899)
+2025-07-17 22:36:20,142 - INFO - Successfully processed batch 319
+2025-07-17 22:36:22,143 - INFO - Processing batch 320/804 (chunks 1476-1480/3899)
+2025-07-17 22:36:22,329 - INFO - Successfully processed batch 320
+2025-07-17 22:36:24,330 - INFO - Processing batch 321/804 (chunks 1481-1485/3899)
+2025-07-17 22:36:24,512 - INFO - Successfully processed batch 321
+2025-07-17 22:36:24,545 - INFO - Checkpoint saved at batch 320
+2025-07-17 22:36:24,548 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:26,549 - INFO - Processing batch 322/804 (chunks 1486-1490/3899)
+2025-07-17 22:36:26,733 - INFO - Successfully processed batch 322
+2025-07-17 22:36:28,735 - INFO - Processing batch 323/804 (chunks 1491-1495/3899)
+2025-07-17 22:36:28,922 - INFO - Successfully processed batch 323
+2025-07-17 22:36:30,923 - INFO - Processing batch 324/804 (chunks 1496-1500/3899)
+2025-07-17 22:36:31,119 - INFO - Successfully processed batch 324
+2025-07-17 22:36:31,143 - INFO - Checkpoint saved at batch 323
+2025-07-17 22:36:31,147 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:33,148 - INFO - Processing batch 325/804 (chunks 1501-1505/3899)
+2025-07-17 22:36:33,333 - INFO - Successfully processed batch 325
+2025-07-17 22:36:35,334 - INFO - Processing batch 326/804 (chunks 1506-1510/3899)
+2025-07-17 22:36:35,523 - INFO - Successfully processed batch 326
+2025-07-17 22:36:37,525 - INFO - Processing batch 327/804 (chunks 1511-1515/3899)
+2025-07-17 22:36:37,713 - INFO - Successfully processed batch 327
+2025-07-17 22:36:37,740 - INFO - Checkpoint saved at batch 326
+2025-07-17 22:36:37,742 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:39,743 - INFO - Processing batch 328/804 (chunks 1516-1520/3899)
+2025-07-17 22:36:39,934 - INFO - Successfully processed batch 328
+2025-07-17 22:36:41,935 - INFO - Processing batch 329/804 (chunks 1521-1525/3899)
+2025-07-17 22:36:42,221 - INFO - Successfully processed batch 329
+2025-07-17 22:36:44,222 - INFO - Processing batch 330/804 (chunks 1526-1530/3899)
+2025-07-17 22:36:44,406 - INFO - Successfully processed batch 330
+2025-07-17 22:36:44,433 - INFO - Checkpoint saved at batch 329
+2025-07-17 22:36:44,435 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:46,436 - INFO - Processing batch 331/804 (chunks 1531-1535/3899)
+2025-07-17 22:36:46,618 - INFO - Successfully processed batch 331
+2025-07-17 22:36:48,618 - INFO - Processing batch 332/804 (chunks 1536-1540/3899)
+2025-07-17 22:36:48,810 - INFO - Successfully processed batch 332
+2025-07-17 22:36:50,811 - INFO - Processing batch 333/804 (chunks 1541-1545/3899)
+2025-07-17 22:36:51,002 - INFO - Successfully processed batch 333
+2025-07-17 22:36:51,029 - INFO - Checkpoint saved at batch 332
+2025-07-17 22:36:51,031 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:53,033 - INFO - Processing batch 334/804 (chunks 1546-1550/3899)
+2025-07-17 22:36:53,215 - INFO - Successfully processed batch 334
+2025-07-17 22:36:55,217 - INFO - Processing batch 335/804 (chunks 1551-1555/3899)
+2025-07-17 22:36:55,407 - INFO - Successfully processed batch 335
+2025-07-17 22:36:57,408 - INFO - Processing batch 336/804 (chunks 1556-1560/3899)
+2025-07-17 22:36:57,595 - INFO - Successfully processed batch 336
+2025-07-17 22:36:57,622 - INFO - Checkpoint saved at batch 335
+2025-07-17 22:36:57,624 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:36:59,625 - INFO - Processing batch 337/804 (chunks 1561-1565/3899)
+2025-07-17 22:36:59,809 - INFO - Successfully processed batch 337
+2025-07-17 22:37:01,809 - INFO - Processing batch 338/804 (chunks 1566-1570/3899)
+2025-07-17 22:37:01,995 - INFO - Successfully processed batch 338
+2025-07-17 22:37:03,996 - INFO - Processing batch 339/804 (chunks 1571-1575/3899)
+2025-07-17 22:37:04,186 - INFO - Successfully processed batch 339
+2025-07-17 22:37:04,213 - INFO - Checkpoint saved at batch 338
+2025-07-17 22:37:04,217 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:06,218 - INFO - Processing batch 340/804 (chunks 1576-1580/3899)
+2025-07-17 22:37:06,411 - INFO - Successfully processed batch 340
+2025-07-17 22:37:08,412 - INFO - Processing batch 341/804 (chunks 1581-1585/3899)
+2025-07-17 22:37:08,597 - INFO - Successfully processed batch 341
+2025-07-17 22:37:10,599 - INFO - Processing batch 342/804 (chunks 1586-1590/3899)
+2025-07-17 22:37:10,788 - INFO - Successfully processed batch 342
+2025-07-17 22:37:10,813 - INFO - Checkpoint saved at batch 341
+2025-07-17 22:37:10,816 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:12,818 - INFO - Processing batch 343/804 (chunks 1591-1595/3899)
+2025-07-17 22:37:13,005 - INFO - Successfully processed batch 343
+2025-07-17 22:37:15,005 - INFO - Processing batch 344/804 (chunks 1596-1600/3899)
+2025-07-17 22:37:15,196 - INFO - Successfully processed batch 344
+2025-07-17 22:37:17,197 - INFO - Processing batch 345/804 (chunks 1601-1605/3899)
+2025-07-17 22:37:17,384 - INFO - Successfully processed batch 345
+2025-07-17 22:37:17,423 - INFO - Checkpoint saved at batch 344
+2025-07-17 22:37:17,427 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:19,427 - INFO - Processing batch 346/804 (chunks 1606-1610/3899)
+2025-07-17 22:37:19,606 - INFO - Successfully processed batch 346
+2025-07-17 22:37:21,607 - INFO - Processing batch 347/804 (chunks 1611-1615/3899)
+2025-07-17 22:37:21,801 - INFO - Successfully processed batch 347
+2025-07-17 22:37:23,802 - INFO - Processing batch 348/804 (chunks 1616-1620/3899)
+2025-07-17 22:37:23,993 - INFO - Successfully processed batch 348
+2025-07-17 22:37:24,020 - INFO - Checkpoint saved at batch 347
+2025-07-17 22:37:24,023 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:26,024 - INFO - Processing batch 349/804 (chunks 1621-1625/3899)
+2025-07-17 22:37:26,217 - INFO - Successfully processed batch 349
+2025-07-17 22:37:28,218 - INFO - Processing batch 350/804 (chunks 1626-1630/3899)
+2025-07-17 22:37:28,404 - INFO - Successfully processed batch 350
+2025-07-17 22:37:30,405 - INFO - Processing batch 351/804 (chunks 1631-1635/3899)
+2025-07-17 22:37:30,603 - INFO - Successfully processed batch 351
+2025-07-17 22:37:30,631 - INFO - Checkpoint saved at batch 350
+2025-07-17 22:37:30,635 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:32,635 - INFO - Processing batch 352/804 (chunks 1636-1640/3899)
+2025-07-17 22:37:32,816 - INFO - Successfully processed batch 352
+2025-07-17 22:37:34,818 - INFO - Processing batch 353/804 (chunks 1641-1645/3899)
+2025-07-17 22:37:35,004 - INFO - Successfully processed batch 353
+2025-07-17 22:37:37,006 - INFO - Processing batch 354/804 (chunks 1646-1650/3899)
+2025-07-17 22:37:37,256 - INFO - Successfully processed batch 354
+2025-07-17 22:37:37,284 - INFO - Checkpoint saved at batch 353
+2025-07-17 22:37:37,287 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:39,288 - INFO - Processing batch 355/804 (chunks 1651-1655/3899)
+2025-07-17 22:37:39,568 - INFO - Successfully processed batch 355
+2025-07-17 22:37:41,570 - INFO - Processing batch 356/804 (chunks 1656-1660/3899)
+2025-07-17 22:37:41,867 - INFO - Successfully processed batch 356
+2025-07-17 22:37:43,867 - INFO - Processing batch 357/804 (chunks 1661-1665/3899)
+2025-07-17 22:37:44,091 - INFO - Successfully processed batch 357
+2025-07-17 22:37:44,123 - INFO - Checkpoint saved at batch 356
+2025-07-17 22:37:44,126 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:46,128 - INFO - Processing batch 358/804 (chunks 1666-1670/3899)
+2025-07-17 22:37:46,455 - INFO - Successfully processed batch 358
+2025-07-17 22:37:48,457 - INFO - Processing batch 359/804 (chunks 1671-1675/3899)
+2025-07-17 22:37:48,651 - INFO - Successfully processed batch 359
+2025-07-17 22:37:50,651 - INFO - Processing batch 360/804 (chunks 1676-1680/3899)
+2025-07-17 22:37:50,844 - INFO - Successfully processed batch 360
+2025-07-17 22:37:50,873 - INFO - Checkpoint saved at batch 359
+2025-07-17 22:37:50,876 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:52,877 - INFO - Processing batch 361/804 (chunks 1681-1685/3899)
+2025-07-17 22:37:53,073 - INFO - Successfully processed batch 361
+2025-07-17 22:37:55,075 - INFO - Processing batch 362/804 (chunks 1686-1690/3899)
+2025-07-17 22:37:55,260 - INFO - Successfully processed batch 362
+2025-07-17 22:37:57,261 - INFO - Processing batch 363/804 (chunks 1691-1695/3899)
+2025-07-17 22:37:57,440 - INFO - Successfully processed batch 363
+2025-07-17 22:37:57,471 - INFO - Checkpoint saved at batch 362
+2025-07-17 22:37:57,473 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:37:59,474 - INFO - Processing batch 364/804 (chunks 1696-1700/3899)
+2025-07-17 22:37:59,662 - INFO - Successfully processed batch 364
+2025-07-17 22:38:01,663 - INFO - Processing batch 365/804 (chunks 1701-1705/3899)
+2025-07-17 22:38:01,855 - INFO - Successfully processed batch 365
+2025-07-17 22:38:03,856 - INFO - Processing batch 366/804 (chunks 1706-1710/3899)
+2025-07-17 22:38:04,043 - INFO - Successfully processed batch 366
+2025-07-17 22:38:04,072 - INFO - Checkpoint saved at batch 365
+2025-07-17 22:38:04,074 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:06,076 - INFO - Processing batch 367/804 (chunks 1711-1715/3899)
+2025-07-17 22:38:06,264 - INFO - Successfully processed batch 367
+2025-07-17 22:38:08,265 - INFO - Processing batch 368/804 (chunks 1716-1720/3899)
+2025-07-17 22:38:08,451 - INFO - Successfully processed batch 368
+2025-07-17 22:38:10,452 - INFO - Processing batch 369/804 (chunks 1721-1725/3899)
+2025-07-17 22:38:10,634 - INFO - Successfully processed batch 369
+2025-07-17 22:38:10,665 - INFO - Checkpoint saved at batch 368
+2025-07-17 22:38:10,668 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:12,670 - INFO - Processing batch 370/804 (chunks 1726-1730/3899)
+2025-07-17 22:38:12,858 - INFO - Successfully processed batch 370
+2025-07-17 22:38:14,859 - INFO - Processing batch 371/804 (chunks 1731-1735/3899)
+2025-07-17 22:38:15,043 - INFO - Successfully processed batch 371
+2025-07-17 22:38:17,045 - INFO - Processing batch 372/804 (chunks 1736-1740/3899)
+2025-07-17 22:38:17,234 - INFO - Successfully processed batch 372
+2025-07-17 22:38:17,263 - INFO - Checkpoint saved at batch 371
+2025-07-17 22:38:17,266 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:19,267 - INFO - Processing batch 373/804 (chunks 1741-1745/3899)
+2025-07-17 22:38:19,454 - INFO - Successfully processed batch 373
+2025-07-17 22:38:21,455 - INFO - Processing batch 374/804 (chunks 1746-1750/3899)
+2025-07-17 22:38:21,641 - INFO - Successfully processed batch 374
+2025-07-17 22:38:23,642 - INFO - Processing batch 375/804 (chunks 1751-1755/3899)
+2025-07-17 22:38:23,843 - INFO - Successfully processed batch 375
+2025-07-17 22:38:23,875 - INFO - Checkpoint saved at batch 374
+2025-07-17 22:38:23,878 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:25,879 - INFO - Processing batch 376/804 (chunks 1756-1760/3899)
+2025-07-17 22:38:26,073 - INFO - Successfully processed batch 376
+2025-07-17 22:38:28,075 - INFO - Processing batch 377/804 (chunks 1761-1765/3899)
+2025-07-17 22:38:28,263 - INFO - Successfully processed batch 377
+2025-07-17 22:38:30,264 - INFO - Processing batch 378/804 (chunks 1766-1770/3899)
+2025-07-17 22:38:30,456 - INFO - Successfully processed batch 378
+2025-07-17 22:38:30,489 - INFO - Checkpoint saved at batch 377
+2025-07-17 22:38:30,493 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:32,494 - INFO - Processing batch 379/804 (chunks 1771-1775/3899)
+2025-07-17 22:38:32,779 - INFO - Successfully processed batch 379
+2025-07-17 22:38:34,781 - INFO - Processing batch 380/804 (chunks 1776-1780/3899)
+2025-07-17 22:38:34,963 - INFO - Successfully processed batch 380
+2025-07-17 22:38:36,964 - INFO - Processing batch 381/804 (chunks 1781-1785/3899)
+2025-07-17 22:38:37,152 - INFO - Successfully processed batch 381
+2025-07-17 22:38:37,187 - INFO - Checkpoint saved at batch 380
+2025-07-17 22:38:37,190 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:39,191 - INFO - Processing batch 382/804 (chunks 1786-1790/3899)
+2025-07-17 22:38:39,466 - INFO - Successfully processed batch 382
+2025-07-17 22:38:41,468 - INFO - Processing batch 383/804 (chunks 1791-1795/3899)
+2025-07-17 22:38:41,654 - INFO - Successfully processed batch 383
+2025-07-17 22:38:43,656 - INFO - Processing batch 384/804 (chunks 1796-1800/3899)
+2025-07-17 22:38:43,839 - INFO - Successfully processed batch 384
+2025-07-17 22:38:43,873 - INFO - Checkpoint saved at batch 383
+2025-07-17 22:38:43,877 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:45,878 - INFO - Processing batch 385/804 (chunks 1801-1805/3899)
+2025-07-17 22:38:46,159 - INFO - Successfully processed batch 385
+2025-07-17 22:38:48,161 - INFO - Processing batch 386/804 (chunks 1806-1810/3899)
+2025-07-17 22:38:48,344 - INFO - Successfully processed batch 386
+2025-07-17 22:38:50,345 - INFO - Processing batch 387/804 (chunks 1811-1815/3899)
+2025-07-17 22:38:50,530 - INFO - Successfully processed batch 387
+2025-07-17 22:38:50,565 - INFO - Checkpoint saved at batch 386
+2025-07-17 22:38:50,568 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:52,569 - INFO - Processing batch 388/804 (chunks 1816-1820/3899)
+2025-07-17 22:38:52,754 - INFO - Successfully processed batch 388
+2025-07-17 22:38:54,755 - INFO - Processing batch 389/804 (chunks 1821-1825/3899)
+2025-07-17 22:38:54,958 - INFO - Successfully processed batch 389
+2025-07-17 22:38:56,960 - INFO - Processing batch 390/804 (chunks 1826-1830/3899)
+2025-07-17 22:38:57,146 - INFO - Successfully processed batch 390
+2025-07-17 22:38:57,179 - INFO - Checkpoint saved at batch 389
+2025-07-17 22:38:57,183 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:38:59,185 - INFO - Processing batch 391/804 (chunks 1831-1835/3899)
+2025-07-17 22:38:59,368 - INFO - Successfully processed batch 391
+2025-07-17 22:39:01,369 - INFO - Processing batch 392/804 (chunks 1836-1840/3899)
+2025-07-17 22:39:01,553 - INFO - Successfully processed batch 392
+2025-07-17 22:39:03,554 - INFO - Processing batch 393/804 (chunks 1841-1845/3899)
+2025-07-17 22:39:03,746 - INFO - Successfully processed batch 393
+2025-07-17 22:39:03,779 - INFO - Checkpoint saved at batch 392
+2025-07-17 22:39:03,782 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:05,783 - INFO - Processing batch 394/804 (chunks 1846-1850/3899)
+2025-07-17 22:39:05,971 - INFO - Successfully processed batch 394
+2025-07-17 22:39:07,972 - INFO - Processing batch 395/804 (chunks 1851-1855/3899)
+2025-07-17 22:39:08,153 - INFO - Successfully processed batch 395
+2025-07-17 22:39:10,155 - INFO - Processing batch 396/804 (chunks 1856-1860/3899)
+2025-07-17 22:39:10,345 - INFO - Successfully processed batch 396
+2025-07-17 22:39:10,382 - INFO - Checkpoint saved at batch 395
+2025-07-17 22:39:10,385 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:12,386 - INFO - Processing batch 397/804 (chunks 1861-1865/3899)
+2025-07-17 22:39:12,573 - INFO - Successfully processed batch 397
+2025-07-17 22:39:14,575 - INFO - Processing batch 398/804 (chunks 1866-1870/3899)
+2025-07-17 22:39:14,764 - INFO - Successfully processed batch 398
+2025-07-17 22:39:16,765 - INFO - Processing batch 399/804 (chunks 1871-1875/3899)
+2025-07-17 22:39:16,948 - INFO - Successfully processed batch 399
+2025-07-17 22:39:16,982 - INFO - Checkpoint saved at batch 398
+2025-07-17 22:39:16,984 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:18,985 - INFO - Processing batch 400/804 (chunks 1876-1880/3899)
+2025-07-17 22:39:19,173 - INFO - Successfully processed batch 400
+2025-07-17 22:39:21,175 - INFO - Processing batch 401/804 (chunks 1881-1885/3899)
+2025-07-17 22:39:21,358 - INFO - Successfully processed batch 401
+2025-07-17 22:39:23,360 - INFO - Processing batch 402/804 (chunks 1886-1890/3899)
+2025-07-17 22:39:23,545 - INFO - Successfully processed batch 402
+2025-07-17 22:39:23,578 - INFO - Checkpoint saved at batch 401
+2025-07-17 22:39:23,582 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:25,582 - INFO - Processing batch 403/804 (chunks 1891-1895/3899)
+2025-07-17 22:39:25,771 - INFO - Successfully processed batch 403
+2025-07-17 22:39:27,772 - INFO - Processing batch 404/804 (chunks 1896-1900/3899)
+2025-07-17 22:39:27,959 - INFO - Successfully processed batch 404
+2025-07-17 22:39:29,961 - INFO - Processing batch 405/804 (chunks 1901-1905/3899)
+2025-07-17 22:39:30,144 - INFO - Successfully processed batch 405
+2025-07-17 22:39:30,178 - INFO - Checkpoint saved at batch 404
+2025-07-17 22:39:30,181 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:32,183 - INFO - Processing batch 406/804 (chunks 1906-1910/3899)
+2025-07-17 22:39:32,459 - INFO - Successfully processed batch 406
+2025-07-17 22:39:34,461 - INFO - Processing batch 407/804 (chunks 1911-1915/3899)
+2025-07-17 22:39:34,652 - INFO - Successfully processed batch 407
+2025-07-17 22:39:36,653 - INFO - Processing batch 408/804 (chunks 1916-1920/3899)
+2025-07-17 22:39:36,836 - INFO - Successfully processed batch 408
+2025-07-17 22:39:36,869 - INFO - Checkpoint saved at batch 407
+2025-07-17 22:39:36,873 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:38,874 - INFO - Processing batch 409/804 (chunks 1921-1925/3899)
+2025-07-17 22:39:39,119 - INFO - Successfully processed batch 409
+2025-07-17 22:39:41,120 - INFO - Processing batch 410/804 (chunks 1926-1930/3899)
+2025-07-17 22:39:41,299 - INFO - Successfully processed batch 410
+2025-07-17 22:39:43,300 - INFO - Processing batch 411/804 (chunks 1931-1935/3899)
+2025-07-17 22:39:43,488 - INFO - Successfully processed batch 411
+2025-07-17 22:39:43,524 - INFO - Checkpoint saved at batch 410
+2025-07-17 22:39:43,526 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:45,527 - INFO - Processing batch 412/804 (chunks 1936-1940/3899)
+2025-07-17 22:39:45,718 - INFO - Successfully processed batch 412
+2025-07-17 22:39:47,719 - INFO - Processing batch 413/804 (chunks 1941-1945/3899)
+2025-07-17 22:39:47,911 - INFO - Successfully processed batch 413
+2025-07-17 22:39:49,911 - INFO - Processing batch 414/804 (chunks 1946-1950/3899)
+2025-07-17 22:39:50,098 - INFO - Successfully processed batch 414
+2025-07-17 22:39:50,131 - INFO - Checkpoint saved at batch 413
+2025-07-17 22:39:50,135 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:52,136 - INFO - Processing batch 415/804 (chunks 1951-1955/3899)
+2025-07-17 22:39:52,393 - INFO - Successfully processed batch 415
+2025-07-17 22:39:54,394 - INFO - Processing batch 416/804 (chunks 1956-1960/3899)
+2025-07-17 22:39:54,578 - INFO - Successfully processed batch 416
+2025-07-17 22:39:56,579 - INFO - Processing batch 417/804 (chunks 1961-1965/3899)
+2025-07-17 22:39:56,774 - INFO - Successfully processed batch 417
+2025-07-17 22:39:56,809 - INFO - Checkpoint saved at batch 416
+2025-07-17 22:39:56,812 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:39:58,813 - INFO - Processing batch 418/804 (chunks 1966-1970/3899)
+2025-07-17 22:39:59,065 - INFO - Successfully processed batch 418
+2025-07-17 22:40:01,066 - INFO - Processing batch 419/804 (chunks 1971-1975/3899)
+2025-07-17 22:40:01,327 - INFO - Successfully processed batch 419
+2025-07-17 22:40:03,328 - INFO - Processing batch 420/804 (chunks 1976-1980/3899)
+2025-07-17 22:40:03,518 - INFO - Successfully processed batch 420
+2025-07-17 22:40:03,553 - INFO - Checkpoint saved at batch 419
+2025-07-17 22:40:03,556 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:05,556 - INFO - Processing batch 421/804 (chunks 1981-1985/3899)
+2025-07-17 22:40:05,758 - INFO - Successfully processed batch 421
+2025-07-17 22:40:07,758 - INFO - Processing batch 422/804 (chunks 1986-1990/3899)
+2025-07-17 22:40:07,944 - INFO - Successfully processed batch 422
+2025-07-17 22:40:09,945 - INFO - Processing batch 423/804 (chunks 1991-1995/3899)
+2025-07-17 22:40:10,130 - INFO - Successfully processed batch 423
+2025-07-17 22:40:10,165 - INFO - Checkpoint saved at batch 422
+2025-07-17 22:40:10,168 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:12,169 - INFO - Processing batch 424/804 (chunks 1996-2000/3899)
+2025-07-17 22:40:12,356 - INFO - Successfully processed batch 424
+2025-07-17 22:40:14,358 - INFO - Processing batch 425/804 (chunks 2001-2005/3899)
+2025-07-17 22:40:14,542 - INFO - Successfully processed batch 425
+2025-07-17 22:40:16,544 - INFO - Processing batch 426/804 (chunks 2006-2010/3899)
+2025-07-17 22:40:16,732 - INFO - Successfully processed batch 426
+2025-07-17 22:40:16,768 - INFO - Checkpoint saved at batch 425
+2025-07-17 22:40:16,772 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:18,773 - INFO - Processing batch 427/804 (chunks 2011-2015/3899)
+2025-07-17 22:40:18,958 - INFO - Successfully processed batch 427
+2025-07-17 22:40:20,959 - INFO - Processing batch 428/804 (chunks 2016-2020/3899)
+2025-07-17 22:40:21,142 - INFO - Successfully processed batch 428
+2025-07-17 22:40:23,143 - INFO - Processing batch 429/804 (chunks 2021-2025/3899)
+2025-07-17 22:40:23,335 - INFO - Successfully processed batch 429
+2025-07-17 22:40:23,369 - INFO - Checkpoint saved at batch 428
+2025-07-17 22:40:23,372 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:25,374 - INFO - Processing batch 430/804 (chunks 2026-2030/3899)
+2025-07-17 22:40:25,563 - INFO - Successfully processed batch 430
+2025-07-17 22:40:27,563 - INFO - Processing batch 431/804 (chunks 2031-2035/3899)
+2025-07-17 22:40:27,740 - INFO - Successfully processed batch 431
+2025-07-17 22:40:29,742 - INFO - Processing batch 432/804 (chunks 2036-2040/3899)
+2025-07-17 22:40:29,928 - INFO - Successfully processed batch 432
+2025-07-17 22:40:29,966 - INFO - Checkpoint saved at batch 431
+2025-07-17 22:40:29,969 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:31,970 - INFO - Processing batch 433/804 (chunks 2041-2045/3899)
+2025-07-17 22:40:32,152 - INFO - Successfully processed batch 433
+2025-07-17 22:40:34,153 - INFO - Processing batch 434/804 (chunks 2046-2050/3899)
+2025-07-17 22:40:34,346 - INFO - Successfully processed batch 434
+2025-07-17 22:40:36,346 - INFO - Processing batch 435/804 (chunks 2051-2055/3899)
+2025-07-17 22:40:36,701 - INFO - Successfully processed batch 435
+2025-07-17 22:40:36,737 - INFO - Checkpoint saved at batch 434
+2025-07-17 22:40:36,740 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:38,741 - INFO - Processing batch 436/804 (chunks 2056-2060/3899)
+2025-07-17 22:40:38,934 - INFO - Successfully processed batch 436
+2025-07-17 22:40:40,934 - INFO - Processing batch 437/804 (chunks 2061-2065/3899)
+2025-07-17 22:40:41,115 - INFO - Successfully processed batch 437
+2025-07-17 22:40:43,116 - INFO - Processing batch 438/804 (chunks 2066-2070/3899)
+2025-07-17 22:40:43,395 - INFO - Successfully processed batch 438
+2025-07-17 22:40:43,431 - INFO - Checkpoint saved at batch 437
+2025-07-17 22:40:43,435 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:45,436 - INFO - Processing batch 439/804 (chunks 2071-2075/3899)
+2025-07-17 22:40:45,634 - INFO - Successfully processed batch 439
+2025-07-17 22:40:47,635 - INFO - Processing batch 440/804 (chunks 2076-2080/3899)
+2025-07-17 22:40:47,916 - INFO - Successfully processed batch 440
+2025-07-17 22:40:49,917 - INFO - Processing batch 441/804 (chunks 2081-2085/3899)
+2025-07-17 22:40:50,195 - INFO - Successfully processed batch 441
+2025-07-17 22:40:50,231 - INFO - Checkpoint saved at batch 440
+2025-07-17 22:40:50,234 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:52,235 - INFO - Processing batch 442/804 (chunks 2086-2090/3899)
+2025-07-17 22:40:52,422 - INFO - Successfully processed batch 442
+2025-07-17 22:40:54,423 - INFO - Processing batch 443/804 (chunks 2091-2095/3899)
+2025-07-17 22:40:54,639 - INFO - Successfully processed batch 443
+2025-07-17 22:40:56,639 - INFO - Processing batch 444/804 (chunks 2096-2100/3899)
+2025-07-17 22:40:56,835 - INFO - Successfully processed batch 444
+2025-07-17 22:40:56,868 - INFO - Checkpoint saved at batch 443
+2025-07-17 22:40:56,870 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:40:58,871 - INFO - Processing batch 445/804 (chunks 2101-2105/3899)
+2025-07-17 22:40:59,129 - INFO - Successfully processed batch 445
+2025-07-17 22:41:01,130 - INFO - Processing batch 446/804 (chunks 2106-2110/3899)
+2025-07-17 22:41:01,417 - INFO - Successfully processed batch 446
+2025-07-17 22:41:03,418 - INFO - Processing batch 447/804 (chunks 2111-2115/3899)
+2025-07-17 22:41:03,606 - INFO - Successfully processed batch 447
+2025-07-17 22:41:03,638 - INFO - Checkpoint saved at batch 446
+2025-07-17 22:41:03,641 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:05,643 - INFO - Processing batch 448/804 (chunks 2116-2120/3899)
+2025-07-17 22:41:05,831 - INFO - Successfully processed batch 448
+2025-07-17 22:41:07,832 - INFO - Processing batch 449/804 (chunks 2121-2125/3899)
+2025-07-17 22:41:08,019 - INFO - Successfully processed batch 449
+2025-07-17 22:41:10,020 - INFO - Processing batch 450/804 (chunks 2126-2130/3899)
+2025-07-17 22:41:10,202 - INFO - Successfully processed batch 450
+2025-07-17 22:41:10,236 - INFO - Checkpoint saved at batch 449
+2025-07-17 22:41:10,239 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:12,239 - INFO - Processing batch 451/804 (chunks 2131-2135/3899)
+2025-07-17 22:41:12,427 - INFO - Successfully processed batch 451
+2025-07-17 22:41:14,427 - INFO - Processing batch 452/804 (chunks 2136-2140/3899)
+2025-07-17 22:41:14,610 - INFO - Successfully processed batch 452
+2025-07-17 22:41:16,611 - INFO - Processing batch 453/804 (chunks 2141-2145/3899)
+2025-07-17 22:41:16,800 - INFO - Successfully processed batch 453
+2025-07-17 22:41:16,832 - INFO - Checkpoint saved at batch 452
+2025-07-17 22:41:16,836 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:18,837 - INFO - Processing batch 454/804 (chunks 2146-2150/3899)
+2025-07-17 22:41:19,030 - INFO - Successfully processed batch 454
+2025-07-17 22:41:21,031 - INFO - Processing batch 455/804 (chunks 2151-2155/3899)
+2025-07-17 22:41:21,212 - INFO - Successfully processed batch 455
+2025-07-17 22:41:23,214 - INFO - Processing batch 456/804 (chunks 2156-2160/3899)
+2025-07-17 22:41:23,394 - INFO - Successfully processed batch 456
+2025-07-17 22:41:23,428 - INFO - Checkpoint saved at batch 455
+2025-07-17 22:41:23,431 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:25,432 - INFO - Processing batch 457/804 (chunks 2161-2165/3899)
+2025-07-17 22:41:25,717 - INFO - Successfully processed batch 457
+2025-07-17 22:41:27,717 - INFO - Processing batch 458/804 (chunks 2166-2170/3899)
+2025-07-17 22:41:27,905 - INFO - Successfully processed batch 458
+2025-07-17 22:41:29,906 - INFO - Processing batch 459/804 (chunks 2171-2175/3899)
+2025-07-17 22:41:30,104 - INFO - Successfully processed batch 459
+2025-07-17 22:41:30,142 - INFO - Checkpoint saved at batch 458
+2025-07-17 22:41:30,145 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:32,146 - INFO - Processing batch 460/804 (chunks 2176-2180/3899)
+2025-07-17 22:41:32,364 - INFO - Successfully processed batch 460
+2025-07-17 22:41:34,365 - INFO - Processing batch 461/804 (chunks 2181-2185/3899)
+2025-07-17 22:41:34,621 - INFO - Successfully processed batch 461
+2025-07-17 22:41:36,622 - INFO - Processing batch 462/804 (chunks 2186-2190/3899)
+2025-07-17 22:41:36,809 - INFO - Successfully processed batch 462
+2025-07-17 22:41:36,856 - INFO - Checkpoint saved at batch 461
+2025-07-17 22:41:36,859 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:38,860 - INFO - Processing batch 463/804 (chunks 2191-2195/3899)
+2025-07-17 22:41:39,118 - INFO - Successfully processed batch 463
+2025-07-17 22:41:41,119 - INFO - Processing batch 464/804 (chunks 2196-2200/3899)
+2025-07-17 22:41:41,307 - INFO - Successfully processed batch 464
+2025-07-17 22:41:43,307 - INFO - Processing batch 465/804 (chunks 2201-2205/3899)
+2025-07-17 22:41:43,494 - INFO - Successfully processed batch 465
+2025-07-17 22:41:43,528 - INFO - Checkpoint saved at batch 464
+2025-07-17 22:41:43,531 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:45,532 - INFO - Processing batch 466/804 (chunks 2206-2210/3899)
+2025-07-17 22:41:45,719 - INFO - Successfully processed batch 466
+2025-07-17 22:41:47,720 - INFO - Processing batch 467/804 (chunks 2211-2215/3899)
+2025-07-17 22:41:47,914 - INFO - Successfully processed batch 467
+2025-07-17 22:41:49,915 - INFO - Processing batch 468/804 (chunks 2216-2220/3899)
+2025-07-17 22:41:50,104 - INFO - Successfully processed batch 468
+2025-07-17 22:41:50,138 - INFO - Checkpoint saved at batch 467
+2025-07-17 22:41:50,140 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:52,142 - INFO - Processing batch 469/804 (chunks 2221-2225/3899)
+2025-07-17 22:41:52,415 - INFO - Successfully processed batch 469
+2025-07-17 22:41:54,415 - INFO - Processing batch 470/804 (chunks 2226-2230/3899)
+2025-07-17 22:41:54,705 - INFO - Successfully processed batch 470
+2025-07-17 22:41:56,707 - INFO - Processing batch 471/804 (chunks 2231-2235/3899)
+2025-07-17 22:41:56,916 - INFO - Successfully processed batch 471
+2025-07-17 22:41:56,996 - INFO - Checkpoint saved at batch 470
+2025-07-17 22:41:56,998 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:41:58,999 - INFO - Processing batch 472/804 (chunks 2236-2240/3899)
+2025-07-17 22:41:59,184 - INFO - Successfully processed batch 472
+2025-07-17 22:42:01,185 - INFO - Processing batch 473/804 (chunks 2241-2245/3899)
+2025-07-17 22:42:01,380 - INFO - Successfully processed batch 473
+2025-07-17 22:42:03,381 - INFO - Processing batch 474/804 (chunks 2246-2250/3899)
+2025-07-17 22:42:03,574 - INFO - Successfully processed batch 474
+2025-07-17 22:42:03,609 - INFO - Checkpoint saved at batch 473
+2025-07-17 22:42:03,612 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:05,613 - INFO - Processing batch 475/804 (chunks 2251-2255/3899)
+2025-07-17 22:42:05,812 - INFO - Successfully processed batch 475
+2025-07-17 22:42:07,813 - INFO - Processing batch 476/804 (chunks 2256-2260/3899)
+2025-07-17 22:42:08,000 - INFO - Successfully processed batch 476
+2025-07-17 22:42:10,001 - INFO - Processing batch 477/804 (chunks 2261-2265/3899)
+2025-07-17 22:42:10,192 - INFO - Successfully processed batch 477
+2025-07-17 22:42:10,237 - INFO - Checkpoint saved at batch 476
+2025-07-17 22:42:10,239 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:12,240 - INFO - Processing batch 478/804 (chunks 2266-2270/3899)
+2025-07-17 22:42:12,430 - INFO - Successfully processed batch 478
+2025-07-17 22:42:14,431 - INFO - Processing batch 479/804 (chunks 2271-2275/3899)
+2025-07-17 22:42:14,615 - INFO - Successfully processed batch 479
+2025-07-17 22:42:16,616 - INFO - Processing batch 480/804 (chunks 2276-2280/3899)
+2025-07-17 22:42:16,801 - INFO - Successfully processed batch 480
+2025-07-17 22:42:16,837 - INFO - Checkpoint saved at batch 479
+2025-07-17 22:42:16,841 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:18,842 - INFO - Processing batch 481/804 (chunks 2281-2285/3899)
+2025-07-17 22:42:19,029 - INFO - Successfully processed batch 481
+2025-07-17 22:42:21,030 - INFO - Processing batch 482/804 (chunks 2286-2290/3899)
+2025-07-17 22:42:21,216 - INFO - Successfully processed batch 482
+2025-07-17 22:42:23,216 - INFO - Processing batch 483/804 (chunks 2291-2295/3899)
+2025-07-17 22:42:23,407 - INFO - Successfully processed batch 483
+2025-07-17 22:42:23,454 - INFO - Checkpoint saved at batch 482
+2025-07-17 22:42:23,457 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:25,458 - INFO - Processing batch 484/804 (chunks 2296-2300/3899)
+2025-07-17 22:42:25,644 - INFO - Successfully processed batch 484
+2025-07-17 22:42:27,645 - INFO - Processing batch 485/804 (chunks 2301-2305/3899)
+2025-07-17 22:42:27,825 - INFO - Successfully processed batch 485
+2025-07-17 22:42:29,826 - INFO - Processing batch 486/804 (chunks 2306-2310/3899)
+2025-07-17 22:42:30,015 - INFO - Successfully processed batch 486
+2025-07-17 22:42:30,055 - INFO - Checkpoint saved at batch 485
+2025-07-17 22:42:30,058 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:32,059 - INFO - Processing batch 487/804 (chunks 2311-2315/3899)
+2025-07-17 22:42:32,240 - INFO - Successfully processed batch 487
+2025-07-17 22:42:34,241 - INFO - Processing batch 488/804 (chunks 2316-2320/3899)
+2025-07-17 22:42:34,425 - INFO - Successfully processed batch 488
+2025-07-17 22:42:36,426 - INFO - Processing batch 489/804 (chunks 2321-2325/3899)
+2025-07-17 22:42:36,634 - INFO - Successfully processed batch 489
+2025-07-17 22:42:36,687 - INFO - Checkpoint saved at batch 488
+2025-07-17 22:42:36,690 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:38,691 - INFO - Processing batch 490/804 (chunks 2326-2330/3899)
+2025-07-17 22:42:38,877 - INFO - Successfully processed batch 490
+2025-07-17 22:42:40,878 - INFO - Processing batch 491/804 (chunks 2331-2335/3899)
+2025-07-17 22:42:41,066 - INFO - Successfully processed batch 491
+2025-07-17 22:42:43,067 - INFO - Processing batch 492/804 (chunks 2336-2340/3899)
+2025-07-17 22:42:43,251 - INFO - Successfully processed batch 492
+2025-07-17 22:42:43,299 - INFO - Checkpoint saved at batch 491
+2025-07-17 22:42:43,302 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:45,304 - INFO - Processing batch 493/804 (chunks 2341-2345/3899)
+2025-07-17 22:42:45,485 - INFO - Successfully processed batch 493
+2025-07-17 22:42:47,487 - INFO - Processing batch 494/804 (chunks 2346-2350/3899)
+2025-07-17 22:42:47,676 - INFO - Successfully processed batch 494
+2025-07-17 22:42:49,677 - INFO - Processing batch 495/804 (chunks 2351-2355/3899)
+2025-07-17 22:42:49,869 - INFO - Successfully processed batch 495
+2025-07-17 22:42:49,905 - INFO - Checkpoint saved at batch 494
+2025-07-17 22:42:49,908 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:51,909 - INFO - Processing batch 496/804 (chunks 2356-2360/3899)
+2025-07-17 22:42:52,091 - INFO - Successfully processed batch 496
+2025-07-17 22:42:54,092 - INFO - Processing batch 497/804 (chunks 2361-2365/3899)
+2025-07-17 22:42:54,277 - INFO - Successfully processed batch 497
+2025-07-17 22:42:56,277 - INFO - Processing batch 498/804 (chunks 2366-2370/3899)
+2025-07-17 22:42:56,463 - INFO - Successfully processed batch 498
+2025-07-17 22:42:56,498 - INFO - Checkpoint saved at batch 497
+2025-07-17 22:42:56,502 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:42:58,503 - INFO - Processing batch 499/804 (chunks 2371-2375/3899)
+2025-07-17 22:42:58,783 - INFO - Successfully processed batch 499
+2025-07-17 22:43:00,784 - INFO - Processing batch 500/804 (chunks 2376-2380/3899)
+2025-07-17 22:43:01,059 - INFO - Successfully processed batch 500
+2025-07-17 22:43:03,060 - INFO - Processing batch 501/804 (chunks 2381-2385/3899)
+2025-07-17 22:43:03,345 - INFO - Successfully processed batch 501
+2025-07-17 22:43:03,382 - INFO - Checkpoint saved at batch 500
+2025-07-17 22:43:03,385 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:05,386 - INFO - Processing batch 502/804 (chunks 2386-2390/3899)
+2025-07-17 22:43:05,667 - INFO - Successfully processed batch 502
+2025-07-17 22:43:07,668 - INFO - Processing batch 503/804 (chunks 2391-2395/3899)
+2025-07-17 22:43:07,953 - INFO - Successfully processed batch 503
+2025-07-17 22:43:09,954 - INFO - Processing batch 504/804 (chunks 2396-2400/3899)
+2025-07-17 22:43:10,141 - INFO - Successfully processed batch 504
+2025-07-17 22:43:10,175 - INFO - Checkpoint saved at batch 503
+2025-07-17 22:43:10,178 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:12,179 - INFO - Processing batch 505/804 (chunks 2401-2405/3899)
+2025-07-17 22:43:12,368 - INFO - Successfully processed batch 505
+2025-07-17 22:43:14,370 - INFO - Processing batch 506/804 (chunks 2406-2410/3899)
+2025-07-17 22:43:14,557 - INFO - Successfully processed batch 506
+2025-07-17 22:43:16,557 - INFO - Processing batch 507/804 (chunks 2411-2415/3899)
+2025-07-17 22:43:16,794 - INFO - Successfully processed batch 507
+2025-07-17 22:43:16,829 - INFO - Checkpoint saved at batch 506
+2025-07-17 22:43:16,832 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:18,833 - INFO - Processing batch 508/804 (chunks 2416-2420/3899)
+2025-07-17 22:43:19,014 - INFO - Successfully processed batch 508
+2025-07-17 22:43:21,014 - INFO - Processing batch 509/804 (chunks 2421-2425/3899)
+2025-07-17 22:43:21,202 - INFO - Successfully processed batch 509
+2025-07-17 22:43:23,203 - INFO - Processing batch 510/804 (chunks 2426-2430/3899)
+2025-07-17 22:43:23,386 - INFO - Successfully processed batch 510
+2025-07-17 22:43:23,424 - INFO - Checkpoint saved at batch 509
+2025-07-17 22:43:23,427 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:25,427 - INFO - Processing batch 511/804 (chunks 2431-2435/3899)
+2025-07-17 22:43:25,621 - INFO - Successfully processed batch 511
+2025-07-17 22:43:27,622 - INFO - Processing batch 512/804 (chunks 2436-2440/3899)
+2025-07-17 22:43:27,902 - INFO - Successfully processed batch 512
+2025-07-17 22:43:29,903 - INFO - Processing batch 513/804 (chunks 2441-2445/3899)
+2025-07-17 22:43:30,088 - INFO - Successfully processed batch 513
+2025-07-17 22:43:30,126 - INFO - Checkpoint saved at batch 512
+2025-07-17 22:43:30,130 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:32,131 - INFO - Processing batch 514/804 (chunks 2446-2450/3899)
+2025-07-17 22:43:32,385 - INFO - Successfully processed batch 514
+2025-07-17 22:43:34,386 - INFO - Processing batch 515/804 (chunks 2451-2455/3899)
+2025-07-17 22:43:34,570 - INFO - Successfully processed batch 515
+2025-07-17 22:43:36,570 - INFO - Processing batch 516/804 (chunks 2456-2460/3899)
+2025-07-17 22:43:36,753 - INFO - Successfully processed batch 516
+2025-07-17 22:43:36,791 - INFO - Checkpoint saved at batch 515
+2025-07-17 22:43:36,793 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:38,795 - INFO - Processing batch 517/804 (chunks 2461-2465/3899)
+2025-07-17 22:43:38,982 - INFO - Successfully processed batch 517
+2025-07-17 22:43:40,982 - INFO - Processing batch 518/804 (chunks 2466-2470/3899)
+2025-07-17 22:43:41,261 - INFO - Successfully processed batch 518
+2025-07-17 22:43:43,262 - INFO - Processing batch 519/804 (chunks 2471-2475/3899)
+2025-07-17 22:43:43,461 - INFO - Successfully processed batch 519
+2025-07-17 22:43:43,497 - INFO - Checkpoint saved at batch 518
+2025-07-17 22:43:43,501 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:45,502 - INFO - Processing batch 520/804 (chunks 2476-2480/3899)
+2025-07-17 22:43:45,686 - INFO - Successfully processed batch 520
+2025-07-17 22:43:47,687 - INFO - Processing batch 521/804 (chunks 2481-2485/3899)
+2025-07-17 22:43:47,878 - INFO - Successfully processed batch 521
+2025-07-17 22:43:49,879 - INFO - Processing batch 522/804 (chunks 2486-2490/3899)
+2025-07-17 22:43:50,070 - INFO - Successfully processed batch 522
+2025-07-17 22:43:50,110 - INFO - Checkpoint saved at batch 521
+2025-07-17 22:43:50,112 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:52,113 - INFO - Processing batch 523/804 (chunks 2491-2495/3899)
+2025-07-17 22:43:52,293 - INFO - Successfully processed batch 523
+2025-07-17 22:43:54,295 - INFO - Processing batch 524/804 (chunks 2496-2500/3899)
+2025-07-17 22:43:54,480 - INFO - Successfully processed batch 524
+2025-07-17 22:43:56,481 - INFO - Processing batch 525/804 (chunks 2501-2505/3899)
+2025-07-17 22:43:56,673 - INFO - Successfully processed batch 525
+2025-07-17 22:43:56,717 - INFO - Checkpoint saved at batch 524
+2025-07-17 22:43:56,720 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:43:58,721 - INFO - Processing batch 526/804 (chunks 2506-2510/3899)
+2025-07-17 22:43:58,909 - INFO - Successfully processed batch 526
+2025-07-17 22:44:00,911 - INFO - Processing batch 527/804 (chunks 2511-2515/3899)
+2025-07-17 22:44:01,098 - INFO - Successfully processed batch 527
+2025-07-17 22:44:03,099 - INFO - Processing batch 528/804 (chunks 2516-2520/3899)
+2025-07-17 22:44:03,283 - INFO - Successfully processed batch 528
+2025-07-17 22:44:03,322 - INFO - Checkpoint saved at batch 527
+2025-07-17 22:44:03,325 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:05,326 - INFO - Processing batch 529/804 (chunks 2521-2525/3899)
+2025-07-17 22:44:05,508 - INFO - Successfully processed batch 529
+2025-07-17 22:44:07,509 - INFO - Processing batch 530/804 (chunks 2526-2530/3899)
+2025-07-17 22:44:07,705 - INFO - Successfully processed batch 530
+2025-07-17 22:44:09,706 - INFO - Processing batch 531/804 (chunks 2531-2535/3899)
+2025-07-17 22:44:09,898 - INFO - Successfully processed batch 531
+2025-07-17 22:44:09,936 - INFO - Checkpoint saved at batch 530
+2025-07-17 22:44:09,938 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:11,940 - INFO - Processing batch 532/804 (chunks 2536-2540/3899)
+2025-07-17 22:44:12,215 - INFO - Successfully processed batch 532
+2025-07-17 22:44:14,216 - INFO - Processing batch 533/804 (chunks 2541-2545/3899)
+2025-07-17 22:44:14,473 - INFO - Successfully processed batch 533
+2025-07-17 22:44:16,474 - INFO - Processing batch 534/804 (chunks 2546-2550/3899)
+2025-07-17 22:44:16,726 - INFO - Successfully processed batch 534
+2025-07-17 22:44:16,764 - INFO - Checkpoint saved at batch 533
+2025-07-17 22:44:16,767 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:18,768 - INFO - Processing batch 535/804 (chunks 2551-2555/3899)
+2025-07-17 22:44:18,957 - INFO - Successfully processed batch 535
+2025-07-17 22:44:20,958 - INFO - Processing batch 536/804 (chunks 2556-2560/3899)
+2025-07-17 22:44:21,142 - INFO - Successfully processed batch 536
+2025-07-17 22:44:23,143 - INFO - Processing batch 537/804 (chunks 2561-2565/3899)
+2025-07-17 22:44:23,336 - INFO - Successfully processed batch 537
+2025-07-17 22:44:23,375 - INFO - Checkpoint saved at batch 536
+2025-07-17 22:44:23,378 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:25,379 - INFO - Processing batch 538/804 (chunks 2566-2570/3899)
+2025-07-17 22:44:25,567 - INFO - Successfully processed batch 538
+2025-07-17 22:44:27,568 - INFO - Processing batch 539/804 (chunks 2571-2575/3899)
+2025-07-17 22:44:27,834 - INFO - Successfully processed batch 539
+2025-07-17 22:44:29,836 - INFO - Processing batch 540/804 (chunks 2576-2580/3899)
+2025-07-17 22:44:30,022 - INFO - Successfully processed batch 540
+2025-07-17 22:44:30,064 - INFO - Checkpoint saved at batch 539
+2025-07-17 22:44:30,067 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:32,069 - INFO - Processing batch 541/804 (chunks 2581-2585/3899)
+2025-07-17 22:44:32,254 - INFO - Successfully processed batch 541
+2025-07-17 22:44:34,255 - INFO - Processing batch 542/804 (chunks 2586-2590/3899)
+2025-07-17 22:44:34,442 - INFO - Successfully processed batch 542
+2025-07-17 22:44:36,442 - INFO - Processing batch 543/804 (chunks 2591-2595/3899)
+2025-07-17 22:44:36,721 - INFO - Successfully processed batch 543
+2025-07-17 22:44:36,761 - INFO - Checkpoint saved at batch 542
+2025-07-17 22:44:36,765 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:38,766 - INFO - Processing batch 544/804 (chunks 2596-2600/3899)
+2025-07-17 22:44:38,960 - INFO - Successfully processed batch 544
+2025-07-17 22:44:40,960 - INFO - Processing batch 545/804 (chunks 2601-2605/3899)
+2025-07-17 22:44:43,637 - INFO - Successfully processed batch 545
+2025-07-17 22:44:45,638 - INFO - Processing batch 546/804 (chunks 2606-2610/3899)
+2025-07-17 22:44:46,305 - INFO - Successfully processed batch 546
+2025-07-17 22:44:46,351 - INFO - Checkpoint saved at batch 545
+2025-07-17 22:44:46,354 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:48,355 - INFO - Processing batch 547/804 (chunks 2611-2615/3899)
+2025-07-17 22:44:48,535 - INFO - Successfully processed batch 547
+2025-07-17 22:44:50,536 - INFO - Processing batch 548/804 (chunks 2616-2620/3899)
+2025-07-17 22:44:50,719 - INFO - Successfully processed batch 548
+2025-07-17 22:44:52,721 - INFO - Processing batch 549/804 (chunks 2621-2625/3899)
+2025-07-17 22:44:52,904 - INFO - Successfully processed batch 549
+2025-07-17 22:44:52,943 - INFO - Checkpoint saved at batch 548
+2025-07-17 22:44:52,946 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:44:54,947 - INFO - Processing batch 550/804 (chunks 2626-2630/3899)
+2025-07-17 22:44:55,201 - INFO - Successfully processed batch 550
+2025-07-17 22:44:57,203 - INFO - Processing batch 551/804 (chunks 2631-2635/3899)
+2025-07-17 22:44:57,484 - INFO - Successfully processed batch 551
+2025-07-17 22:44:59,485 - INFO - Processing batch 552/804 (chunks 2636-2640/3899)
+2025-07-17 22:44:59,672 - INFO - Successfully processed batch 552
+2025-07-17 22:44:59,712 - INFO - Checkpoint saved at batch 551
+2025-07-17 22:44:59,714 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:01,715 - INFO - Processing batch 553/804 (chunks 2641-2645/3899)
+2025-07-17 22:45:01,972 - INFO - Successfully processed batch 553
+2025-07-17 22:45:03,973 - INFO - Processing batch 554/804 (chunks 2646-2650/3899)
+2025-07-17 22:45:04,251 - INFO - Successfully processed batch 554
+2025-07-17 22:45:06,252 - INFO - Processing batch 555/804 (chunks 2651-2655/3899)
+2025-07-17 22:45:06,434 - INFO - Successfully processed batch 555
+2025-07-17 22:45:06,474 - INFO - Checkpoint saved at batch 554
+2025-07-17 22:45:06,477 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:08,478 - INFO - Processing batch 556/804 (chunks 2656-2660/3899)
+2025-07-17 22:45:08,775 - INFO - Successfully processed batch 556
+2025-07-17 22:45:10,776 - INFO - Processing batch 557/804 (chunks 2661-2665/3899)
+2025-07-17 22:45:10,970 - INFO - Successfully processed batch 557
+2025-07-17 22:45:12,970 - INFO - Processing batch 558/804 (chunks 2666-2670/3899)
+2025-07-17 22:45:13,153 - INFO - Successfully processed batch 558
+2025-07-17 22:45:13,191 - INFO - Checkpoint saved at batch 557
+2025-07-17 22:45:13,196 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:15,197 - INFO - Processing batch 559/804 (chunks 2671-2675/3899)
+2025-07-17 22:45:15,463 - INFO - Successfully processed batch 559
+2025-07-17 22:45:17,464 - INFO - Processing batch 560/804 (chunks 2676-2680/3899)
+2025-07-17 22:45:17,650 - INFO - Successfully processed batch 560
+2025-07-17 22:45:19,651 - INFO - Processing batch 561/804 (chunks 2681-2685/3899)
+2025-07-17 22:45:19,909 - INFO - Successfully processed batch 561
+2025-07-17 22:45:19,950 - INFO - Checkpoint saved at batch 560
+2025-07-17 22:45:19,953 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:21,954 - INFO - Processing batch 562/804 (chunks 2686-2690/3899)
+2025-07-17 22:45:22,143 - INFO - Successfully processed batch 562
+2025-07-17 22:45:24,144 - INFO - Processing batch 563/804 (chunks 2691-2695/3899)
+2025-07-17 22:45:24,427 - INFO - Successfully processed batch 563
+2025-07-17 22:45:26,428 - INFO - Processing batch 564/804 (chunks 2696-2700/3899)
+2025-07-17 22:45:26,717 - INFO - Successfully processed batch 564
+2025-07-17 22:45:26,758 - INFO - Checkpoint saved at batch 563
+2025-07-17 22:45:26,761 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:28,763 - INFO - Processing batch 565/804 (chunks 2701-2705/3899)
+2025-07-17 22:45:28,949 - INFO - Successfully processed batch 565
+2025-07-17 22:45:30,950 - INFO - Processing batch 566/804 (chunks 2706-2710/3899)
+2025-07-17 22:45:31,137 - INFO - Successfully processed batch 566
+2025-07-17 22:45:33,138 - INFO - Processing batch 567/804 (chunks 2711-2715/3899)
+2025-07-17 22:45:33,321 - INFO - Successfully processed batch 567
+2025-07-17 22:45:33,365 - INFO - Checkpoint saved at batch 566
+2025-07-17 22:45:33,368 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:35,369 - INFO - Processing batch 568/804 (chunks 2716-2720/3899)
+2025-07-17 22:45:35,554 - INFO - Successfully processed batch 568
+2025-07-17 22:45:37,554 - INFO - Processing batch 569/804 (chunks 2721-2725/3899)
+2025-07-17 22:45:37,741 - INFO - Successfully processed batch 569
+2025-07-17 22:45:39,741 - INFO - Processing batch 570/804 (chunks 2726-2730/3899)
+2025-07-17 22:45:39,930 - INFO - Successfully processed batch 570
+2025-07-17 22:45:39,976 - INFO - Checkpoint saved at batch 569
+2025-07-17 22:45:39,980 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:41,981 - INFO - Processing batch 571/804 (chunks 2731-2735/3899)
+2025-07-17 22:45:42,181 - INFO - Successfully processed batch 571
+2025-07-17 22:45:44,182 - INFO - Processing batch 572/804 (chunks 2736-2740/3899)
+2025-07-17 22:45:44,370 - INFO - Successfully processed batch 572
+2025-07-17 22:45:46,371 - INFO - Processing batch 573/804 (chunks 2741-2745/3899)
+2025-07-17 22:45:46,557 - INFO - Successfully processed batch 573
+2025-07-17 22:45:46,606 - INFO - Checkpoint saved at batch 572
+2025-07-17 22:45:46,609 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:48,610 - INFO - Processing batch 574/804 (chunks 2746-2750/3899)
+2025-07-17 22:45:48,896 - INFO - Successfully processed batch 574
+2025-07-17 22:45:50,897 - INFO - Processing batch 575/804 (chunks 2751-2755/3899)
+2025-07-17 22:45:51,082 - INFO - Successfully processed batch 575
+2025-07-17 22:45:53,083 - INFO - Processing batch 576/804 (chunks 2756-2760/3899)
+2025-07-17 22:45:53,269 - INFO - Successfully processed batch 576
+2025-07-17 22:45:53,312 - INFO - Checkpoint saved at batch 575
+2025-07-17 22:45:53,316 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:45:55,317 - INFO - Processing batch 577/804 (chunks 2761-2765/3899)
+2025-07-17 22:45:55,506 - INFO - Successfully processed batch 577
+2025-07-17 22:45:57,507 - INFO - Processing batch 578/804 (chunks 2766-2770/3899)
+2025-07-17 22:45:57,694 - INFO - Successfully processed batch 578
+2025-07-17 22:45:59,696 - INFO - Processing batch 579/804 (chunks 2771-2775/3899)
+2025-07-17 22:45:59,886 - INFO - Successfully processed batch 579
+2025-07-17 22:45:59,933 - INFO - Checkpoint saved at batch 578
+2025-07-17 22:45:59,936 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:01,936 - INFO - Processing batch 580/804 (chunks 2776-2780/3899)
+2025-07-17 22:46:02,129 - INFO - Successfully processed batch 580
+2025-07-17 22:46:04,130 - INFO - Processing batch 581/804 (chunks 2781-2785/3899)
+2025-07-17 22:46:04,315 - INFO - Successfully processed batch 581
+2025-07-17 22:46:06,316 - INFO - Processing batch 582/804 (chunks 2786-2790/3899)
+2025-07-17 22:46:06,512 - INFO - Successfully processed batch 582
+2025-07-17 22:46:06,556 - INFO - Checkpoint saved at batch 581
+2025-07-17 22:46:06,559 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:08,560 - INFO - Processing batch 583/804 (chunks 2791-2795/3899)
+2025-07-17 22:46:08,753 - INFO - Successfully processed batch 583
+2025-07-17 22:46:10,754 - INFO - Processing batch 584/804 (chunks 2796-2800/3899)
+2025-07-17 22:46:10,947 - INFO - Successfully processed batch 584
+2025-07-17 22:46:12,948 - INFO - Processing batch 585/804 (chunks 2801-2805/3899)
+2025-07-17 22:46:13,228 - INFO - Successfully processed batch 585
+2025-07-17 22:46:13,284 - INFO - Checkpoint saved at batch 584
+2025-07-17 22:46:13,287 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:15,288 - INFO - Processing batch 586/804 (chunks 2806-2810/3899)
+2025-07-17 22:46:15,478 - INFO - Successfully processed batch 586
+2025-07-17 22:46:17,478 - INFO - Processing batch 587/804 (chunks 2811-2815/3899)
+2025-07-17 22:46:17,667 - INFO - Successfully processed batch 587
+2025-07-17 22:46:19,668 - INFO - Processing batch 588/804 (chunks 2816-2820/3899)
+2025-07-17 22:46:19,859 - INFO - Successfully processed batch 588
+2025-07-17 22:46:19,901 - INFO - Checkpoint saved at batch 587
+2025-07-17 22:46:19,905 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:21,906 - INFO - Processing batch 589/804 (chunks 2821-2825/3899)
+2025-07-17 22:46:22,110 - INFO - Successfully processed batch 589
+2025-07-17 22:46:24,111 - INFO - Processing batch 590/804 (chunks 2826-2830/3899)
+2025-07-17 22:46:24,299 - INFO - Successfully processed batch 590
+2025-07-17 22:46:26,300 - INFO - Processing batch 591/804 (chunks 2831-2835/3899)
+2025-07-17 22:46:26,495 - INFO - Successfully processed batch 591
+2025-07-17 22:46:26,547 - INFO - Checkpoint saved at batch 590
+2025-07-17 22:46:26,551 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:28,552 - INFO - Processing batch 592/804 (chunks 2836-2840/3899)
+2025-07-17 22:46:28,736 - INFO - Successfully processed batch 592
+2025-07-17 22:46:30,737 - INFO - Processing batch 593/804 (chunks 2841-2845/3899)
+2025-07-17 22:46:30,937 - INFO - Successfully processed batch 593
+2025-07-17 22:46:32,939 - INFO - Processing batch 594/804 (chunks 2846-2850/3899)
+2025-07-17 22:46:33,221 - INFO - Successfully processed batch 594
+2025-07-17 22:46:33,264 - INFO - Checkpoint saved at batch 593
+2025-07-17 22:46:33,268 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:35,269 - INFO - Processing batch 595/804 (chunks 2851-2855/3899)
+2025-07-17 22:46:35,453 - INFO - Successfully processed batch 595
+2025-07-17 22:46:37,454 - INFO - Processing batch 596/804 (chunks 2856-2860/3899)
+2025-07-17 22:46:37,639 - INFO - Successfully processed batch 596
+2025-07-17 22:46:39,640 - INFO - Processing batch 597/804 (chunks 2861-2865/3899)
+2025-07-17 22:46:39,836 - INFO - Successfully processed batch 597
+2025-07-17 22:46:39,880 - INFO - Checkpoint saved at batch 596
+2025-07-17 22:46:39,884 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:41,884 - INFO - Processing batch 598/804 (chunks 2866-2870/3899)
+2025-07-17 22:46:42,171 - INFO - Successfully processed batch 598
+2025-07-17 22:46:44,172 - INFO - Processing batch 599/804 (chunks 2871-2875/3899)
+2025-07-17 22:46:44,360 - INFO - Successfully processed batch 599
+2025-07-17 22:46:46,361 - INFO - Processing batch 600/804 (chunks 2876-2880/3899)
+2025-07-17 22:46:46,547 - INFO - Successfully processed batch 600
+2025-07-17 22:46:46,590 - INFO - Checkpoint saved at batch 599
+2025-07-17 22:46:46,594 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:48,594 - INFO - Processing batch 601/804 (chunks 2881-2885/3899)
+2025-07-17 22:46:48,787 - INFO - Successfully processed batch 601
+2025-07-17 22:46:50,788 - INFO - Processing batch 602/804 (chunks 2886-2890/3899)
+2025-07-17 22:46:50,979 - INFO - Successfully processed batch 602
+2025-07-17 22:46:52,980 - INFO - Processing batch 603/804 (chunks 2891-2895/3899)
+2025-07-17 22:46:53,240 - INFO - Successfully processed batch 603
+2025-07-17 22:46:53,284 - INFO - Checkpoint saved at batch 602
+2025-07-17 22:46:53,287 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:46:55,288 - INFO - Processing batch 604/804 (chunks 2896-2900/3899)
+2025-07-17 22:46:55,547 - INFO - Successfully processed batch 604
+2025-07-17 22:46:57,548 - INFO - Processing batch 605/804 (chunks 2901-2905/3899)
+2025-07-17 22:46:57,737 - INFO - Successfully processed batch 605
+2025-07-17 22:46:59,738 - INFO - Processing batch 606/804 (chunks 2906-2910/3899)
+2025-07-17 22:46:59,919 - INFO - Successfully processed batch 606
+2025-07-17 22:46:59,963 - INFO - Checkpoint saved at batch 605
+2025-07-17 22:46:59,966 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:01,967 - INFO - Processing batch 607/804 (chunks 2911-2915/3899)
+2025-07-17 22:47:02,237 - INFO - Successfully processed batch 607
+2025-07-17 22:47:04,238 - INFO - Processing batch 608/804 (chunks 2916-2920/3899)
+2025-07-17 22:47:04,516 - INFO - Successfully processed batch 608
+2025-07-17 22:47:06,517 - INFO - Processing batch 609/804 (chunks 2921-2925/3899)
+2025-07-17 22:47:06,693 - INFO - Successfully processed batch 609
+2025-07-17 22:47:06,740 - INFO - Checkpoint saved at batch 608
+2025-07-17 22:47:06,743 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:08,744 - INFO - Processing batch 610/804 (chunks 2926-2930/3899)
+2025-07-17 22:47:09,027 - INFO - Successfully processed batch 610
+2025-07-17 22:47:11,029 - INFO - Processing batch 611/804 (chunks 2931-2935/3899)
+2025-07-17 22:47:11,224 - INFO - Successfully processed batch 611
+2025-07-17 22:47:13,225 - INFO - Processing batch 612/804 (chunks 2936-2940/3899)
+2025-07-17 22:47:13,417 - INFO - Successfully processed batch 612
+2025-07-17 22:47:13,476 - INFO - Checkpoint saved at batch 611
+2025-07-17 22:47:13,479 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:15,480 - INFO - Processing batch 613/804 (chunks 2941-2945/3899)
+2025-07-17 22:47:15,666 - INFO - Successfully processed batch 613
+2025-07-17 22:47:17,666 - INFO - Processing batch 614/804 (chunks 2946-2950/3899)
+2025-07-17 22:47:17,858 - INFO - Successfully processed batch 614
+2025-07-17 22:47:19,859 - INFO - Processing batch 615/804 (chunks 2951-2955/3899)
+2025-07-17 22:47:20,049 - INFO - Successfully processed batch 615
+2025-07-17 22:47:20,097 - INFO - Checkpoint saved at batch 614
+2025-07-17 22:47:20,101 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:22,103 - INFO - Processing batch 616/804 (chunks 2956-2960/3899)
+2025-07-17 22:47:22,286 - INFO - Successfully processed batch 616
+2025-07-17 22:47:24,287 - INFO - Processing batch 617/804 (chunks 2961-2965/3899)
+2025-07-17 22:47:24,473 - INFO - Successfully processed batch 617
+2025-07-17 22:47:26,473 - INFO - Processing batch 618/804 (chunks 2966-2970/3899)
+2025-07-17 22:47:26,675 - INFO - Successfully processed batch 618
+2025-07-17 22:47:26,721 - INFO - Checkpoint saved at batch 617
+2025-07-17 22:47:26,725 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:28,726 - INFO - Processing batch 619/804 (chunks 2971-2975/3899)
+2025-07-17 22:47:28,922 - INFO - Successfully processed batch 619
+2025-07-17 22:47:30,924 - INFO - Processing batch 620/804 (chunks 2976-2980/3899)
+2025-07-17 22:47:31,112 - INFO - Successfully processed batch 620
+2025-07-17 22:47:33,113 - INFO - Processing batch 621/804 (chunks 2981-2985/3899)
+2025-07-17 22:47:33,306 - INFO - Successfully processed batch 621
+2025-07-17 22:47:33,352 - INFO - Checkpoint saved at batch 620
+2025-07-17 22:47:33,356 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:35,357 - INFO - Processing batch 622/804 (chunks 2986-2990/3899)
+2025-07-17 22:47:35,551 - INFO - Successfully processed batch 622
+2025-07-17 22:47:37,552 - INFO - Processing batch 623/804 (chunks 2991-2995/3899)
+2025-07-17 22:47:37,745 - INFO - Successfully processed batch 623
+2025-07-17 22:47:39,746 - INFO - Processing batch 624/804 (chunks 2996-3000/3899)
+2025-07-17 22:47:39,935 - INFO - Successfully processed batch 624
+2025-07-17 22:47:39,979 - INFO - Checkpoint saved at batch 623
+2025-07-17 22:47:39,983 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:41,983 - INFO - Processing batch 625/804 (chunks 3001-3005/3899)
+2025-07-17 22:47:42,258 - INFO - Successfully processed batch 625
+2025-07-17 22:47:44,259 - INFO - Processing batch 626/804 (chunks 3006-3010/3899)
+2025-07-17 22:47:44,441 - INFO - Successfully processed batch 626
+2025-07-17 22:47:46,442 - INFO - Processing batch 627/804 (chunks 3011-3015/3899)
+2025-07-17 22:47:46,637 - INFO - Successfully processed batch 627
+2025-07-17 22:47:46,682 - INFO - Checkpoint saved at batch 626
+2025-07-17 22:47:46,685 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:48,687 - INFO - Processing batch 628/804 (chunks 3016-3020/3899)
+2025-07-17 22:47:48,870 - INFO - Successfully processed batch 628
+2025-07-17 22:47:50,872 - INFO - Processing batch 629/804 (chunks 3021-3025/3899)
+2025-07-17 22:47:51,066 - INFO - Successfully processed batch 629
+2025-07-17 22:47:53,067 - INFO - Processing batch 630/804 (chunks 3026-3030/3899)
+2025-07-17 22:47:53,438 - INFO - Successfully processed batch 630
+2025-07-17 22:47:53,483 - INFO - Checkpoint saved at batch 629
+2025-07-17 22:47:53,486 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:47:55,487 - INFO - Processing batch 631/804 (chunks 3031-3035/3899)
+2025-07-17 22:47:55,771 - INFO - Successfully processed batch 631
+2025-07-17 22:47:57,772 - INFO - Processing batch 632/804 (chunks 3036-3040/3899)
+2025-07-17 22:47:58,020 - INFO - Successfully processed batch 632
+2025-07-17 22:48:00,021 - INFO - Processing batch 633/804 (chunks 3041-3045/3899)
+2025-07-17 22:48:00,209 - INFO - Successfully processed batch 633
+2025-07-17 22:48:00,263 - INFO - Checkpoint saved at batch 632
+2025-07-17 22:48:00,265 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:02,267 - INFO - Processing batch 634/804 (chunks 3046-3050/3899)
+2025-07-17 22:48:02,470 - INFO - Successfully processed batch 634
+2025-07-17 22:48:04,470 - INFO - Processing batch 635/804 (chunks 3051-3055/3899)
+2025-07-17 22:48:04,661 - INFO - Successfully processed batch 635
+2025-07-17 22:48:06,661 - INFO - Processing batch 636/804 (chunks 3056-3060/3899)
+2025-07-17 22:48:06,847 - INFO - Successfully processed batch 636
+2025-07-17 22:48:06,909 - INFO - Checkpoint saved at batch 635
+2025-07-17 22:48:06,912 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:08,913 - INFO - Processing batch 637/804 (chunks 3061-3065/3899)
+2025-07-17 22:48:09,104 - INFO - Successfully processed batch 637
+2025-07-17 22:48:11,105 - INFO - Processing batch 638/804 (chunks 3066-3070/3899)
+2025-07-17 22:48:11,289 - INFO - Successfully processed batch 638
+2025-07-17 22:48:13,290 - INFO - Processing batch 639/804 (chunks 3071-3075/3899)
+2025-07-17 22:48:14,017 - INFO - Successfully processed batch 639
+2025-07-17 22:48:14,084 - INFO - Checkpoint saved at batch 638
+2025-07-17 22:48:14,088 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:16,088 - INFO - Processing batch 640/804 (chunks 3076-3080/3899)
+2025-07-17 22:48:16,279 - INFO - Successfully processed batch 640
+2025-07-17 22:48:18,280 - INFO - Processing batch 641/804 (chunks 3081-3085/3899)
+2025-07-17 22:48:18,465 - INFO - Successfully processed batch 641
+2025-07-17 22:48:20,465 - INFO - Processing batch 642/804 (chunks 3086-3090/3899)
+2025-07-17 22:48:20,742 - INFO - Successfully processed batch 642
+2025-07-17 22:48:20,793 - INFO - Checkpoint saved at batch 641
+2025-07-17 22:48:20,796 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:22,797 - INFO - Processing batch 643/804 (chunks 3091-3095/3899)
+2025-07-17 22:48:22,979 - INFO - Successfully processed batch 643
+2025-07-17 22:48:24,979 - INFO - Processing batch 644/804 (chunks 3096-3100/3899)
+2025-07-17 22:48:25,197 - INFO - Successfully processed batch 644
+2025-07-17 22:48:27,198 - INFO - Processing batch 645/804 (chunks 3101-3105/3899)
+2025-07-17 22:48:27,381 - INFO - Successfully processed batch 645
+2025-07-17 22:48:27,431 - INFO - Checkpoint saved at batch 644
+2025-07-17 22:48:27,434 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:29,435 - INFO - Processing batch 646/804 (chunks 3106-3110/3899)
+2025-07-17 22:48:29,630 - INFO - Successfully processed batch 646
+2025-07-17 22:48:31,631 - INFO - Processing batch 647/804 (chunks 3111-3115/3899)
+2025-07-17 22:48:31,817 - INFO - Successfully processed batch 647
+2025-07-17 22:48:33,820 - INFO - Processing batch 648/804 (chunks 3116-3120/3899)
+2025-07-17 22:48:34,010 - INFO - Successfully processed batch 648
+2025-07-17 22:48:34,063 - INFO - Checkpoint saved at batch 647
+2025-07-17 22:48:34,067 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:36,068 - INFO - Processing batch 649/804 (chunks 3121-3125/3899)
+2025-07-17 22:48:36,340 - INFO - Successfully processed batch 649
+2025-07-17 22:48:38,341 - INFO - Processing batch 650/804 (chunks 3126-3130/3899)
+2025-07-17 22:48:38,527 - INFO - Successfully processed batch 650
+2025-07-17 22:48:40,528 - INFO - Processing batch 651/804 (chunks 3131-3135/3899)
+2025-07-17 22:48:40,713 - INFO - Successfully processed batch 651
+2025-07-17 22:48:40,761 - INFO - Checkpoint saved at batch 650
+2025-07-17 22:48:40,765 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:42,766 - INFO - Processing batch 652/804 (chunks 3136-3140/3899)
+2025-07-17 22:48:42,949 - INFO - Successfully processed batch 652
+2025-07-17 22:48:44,949 - INFO - Processing batch 653/804 (chunks 3141-3145/3899)
+2025-07-17 22:48:45,131 - INFO - Successfully processed batch 653
+2025-07-17 22:48:47,133 - INFO - Processing batch 654/804 (chunks 3146-3150/3899)
+2025-07-17 22:48:47,325 - INFO - Successfully processed batch 654
+2025-07-17 22:48:47,391 - INFO - Checkpoint saved at batch 653
+2025-07-17 22:48:47,395 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:49,396 - INFO - Processing batch 655/804 (chunks 3151-3155/3899)
+2025-07-17 22:48:49,584 - INFO - Successfully processed batch 655
+2025-07-17 22:48:51,585 - INFO - Processing batch 656/804 (chunks 3156-3160/3899)
+2025-07-17 22:48:51,780 - INFO - Successfully processed batch 656
+2025-07-17 22:48:53,780 - INFO - Processing batch 657/804 (chunks 3161-3165/3899)
+2025-07-17 22:48:53,967 - INFO - Successfully processed batch 657
+2025-07-17 22:48:54,020 - INFO - Checkpoint saved at batch 656
+2025-07-17 22:48:54,023 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:48:56,024 - INFO - Processing batch 658/804 (chunks 3166-3170/3899)
+2025-07-17 22:48:56,207 - INFO - Successfully processed batch 658
+2025-07-17 22:48:58,209 - INFO - Processing batch 659/804 (chunks 3171-3175/3899)
+2025-07-17 22:48:58,402 - INFO - Successfully processed batch 659
+2025-07-17 22:49:00,403 - INFO - Processing batch 660/804 (chunks 3176-3180/3899)
+2025-07-17 22:49:00,590 - INFO - Successfully processed batch 660
+2025-07-17 22:49:00,640 - INFO - Checkpoint saved at batch 659
+2025-07-17 22:49:00,643 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:02,644 - INFO - Processing batch 661/804 (chunks 3181-3185/3899)
+2025-07-17 22:49:02,827 - INFO - Successfully processed batch 661
+2025-07-17 22:49:04,829 - INFO - Processing batch 662/804 (chunks 3186-3190/3899)
+2025-07-17 22:49:05,013 - INFO - Successfully processed batch 662
+2025-07-17 22:49:07,015 - INFO - Processing batch 663/804 (chunks 3191-3195/3899)
+2025-07-17 22:49:07,211 - INFO - Successfully processed batch 663
+2025-07-17 22:49:07,275 - INFO - Checkpoint saved at batch 662
+2025-07-17 22:49:07,279 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:09,280 - INFO - Processing batch 664/804 (chunks 3196-3200/3899)
+2025-07-17 22:49:09,470 - INFO - Successfully processed batch 664
+2025-07-17 22:49:11,471 - INFO - Processing batch 665/804 (chunks 3201-3205/3899)
+2025-07-17 22:49:11,654 - INFO - Successfully processed batch 665
+2025-07-17 22:49:13,656 - INFO - Processing batch 666/804 (chunks 3206-3210/3899)
+2025-07-17 22:49:13,845 - INFO - Successfully processed batch 666
+2025-07-17 22:49:13,893 - INFO - Checkpoint saved at batch 665
+2025-07-17 22:49:13,896 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:15,897 - INFO - Processing batch 667/804 (chunks 3211-3215/3899)
+2025-07-17 22:49:16,150 - INFO - Successfully processed batch 667
+2025-07-17 22:49:18,151 - INFO - Processing batch 668/804 (chunks 3216-3220/3899)
+2025-07-17 22:49:18,431 - INFO - Successfully processed batch 668
+2025-07-17 22:49:20,431 - INFO - Processing batch 669/804 (chunks 3221-3225/3899)
+2025-07-17 22:49:20,613 - INFO - Successfully processed batch 669
+2025-07-17 22:49:20,671 - INFO - Checkpoint saved at batch 668
+2025-07-17 22:49:20,676 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:22,677 - INFO - Processing batch 670/804 (chunks 3226-3230/3899)
+2025-07-17 22:49:22,868 - INFO - Successfully processed batch 670
+2025-07-17 22:49:24,869 - INFO - Processing batch 671/804 (chunks 3231-3235/3899)
+2025-07-17 22:49:25,061 - INFO - Successfully processed batch 671
+2025-07-17 22:49:27,062 - INFO - Processing batch 672/804 (chunks 3236-3240/3899)
+2025-07-17 22:49:27,259 - INFO - Successfully processed batch 672
+2025-07-17 22:49:27,316 - INFO - Checkpoint saved at batch 671
+2025-07-17 22:49:27,319 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:29,320 - INFO - Processing batch 673/804 (chunks 3241-3245/3899)
+2025-07-17 22:49:29,504 - INFO - Successfully processed batch 673
+2025-07-17 22:49:31,506 - INFO - Processing batch 674/804 (chunks 3246-3250/3899)
+2025-07-17 22:49:31,697 - INFO - Successfully processed batch 674
+2025-07-17 22:49:33,698 - INFO - Processing batch 675/804 (chunks 3251-3255/3899)
+2025-07-17 22:49:33,884 - INFO - Successfully processed batch 675
+2025-07-17 22:49:33,940 - INFO - Checkpoint saved at batch 674
+2025-07-17 22:49:33,943 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:35,944 - INFO - Processing batch 676/804 (chunks 3256-3260/3899)
+2025-07-17 22:49:36,135 - INFO - Successfully processed batch 676
+2025-07-17 22:49:38,136 - INFO - Processing batch 677/804 (chunks 3261-3265/3899)
+2025-07-17 22:49:38,326 - INFO - Successfully processed batch 677
+2025-07-17 22:49:40,327 - INFO - Processing batch 678/804 (chunks 3266-3270/3899)
+2025-07-17 22:49:40,526 - INFO - Successfully processed batch 678
+2025-07-17 22:49:40,579 - INFO - Checkpoint saved at batch 677
+2025-07-17 22:49:40,584 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:42,585 - INFO - Processing batch 679/804 (chunks 3271-3275/3899)
+2025-07-17 22:49:42,774 - INFO - Successfully processed batch 679
+2025-07-17 22:49:44,775 - INFO - Processing batch 680/804 (chunks 3276-3280/3899)
+2025-07-17 22:49:44,962 - INFO - Successfully processed batch 680
+2025-07-17 22:49:46,963 - INFO - Processing batch 681/804 (chunks 3281-3285/3899)
+2025-07-17 22:49:47,152 - INFO - Successfully processed batch 681
+2025-07-17 22:49:47,206 - INFO - Checkpoint saved at batch 680
+2025-07-17 22:49:47,210 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:49,211 - INFO - Processing batch 682/804 (chunks 3286-3290/3899)
+2025-07-17 22:49:49,401 - INFO - Successfully processed batch 682
+2025-07-17 22:49:51,402 - INFO - Processing batch 683/804 (chunks 3291-3295/3899)
+2025-07-17 22:49:51,683 - INFO - Successfully processed batch 683
+2025-07-17 22:49:53,684 - INFO - Processing batch 684/804 (chunks 3296-3300/3899)
+2025-07-17 22:49:53,869 - INFO - Successfully processed batch 684
+2025-07-17 22:49:53,917 - INFO - Checkpoint saved at batch 683
+2025-07-17 22:49:53,921 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:49:55,923 - INFO - Processing batch 685/804 (chunks 3301-3305/3899)
+2025-07-17 22:49:56,110 - INFO - Successfully processed batch 685
+2025-07-17 22:49:58,110 - INFO - Processing batch 686/804 (chunks 3306-3310/3899)
+2025-07-17 22:49:58,296 - INFO - Successfully processed batch 686
+2025-07-17 22:50:00,297 - INFO - Processing batch 687/804 (chunks 3311-3315/3899)
+2025-07-17 22:50:00,477 - INFO - Successfully processed batch 687
+2025-07-17 22:50:00,527 - INFO - Checkpoint saved at batch 686
+2025-07-17 22:50:00,530 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:02,532 - INFO - Processing batch 688/804 (chunks 3316-3320/3899)
+2025-07-17 22:50:02,790 - INFO - Successfully processed batch 688
+2025-07-17 22:50:04,791 - INFO - Processing batch 689/804 (chunks 3321-3325/3899)
+2025-07-17 22:50:04,983 - INFO - Successfully processed batch 689
+2025-07-17 22:50:06,984 - INFO - Processing batch 690/804 (chunks 3326-3330/3899)
+2025-07-17 22:50:07,269 - INFO - Successfully processed batch 690
+2025-07-17 22:50:07,317 - INFO - Checkpoint saved at batch 689
+2025-07-17 22:50:07,320 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:09,321 - INFO - Processing batch 691/804 (chunks 3331-3335/3899)
+2025-07-17 22:50:09,595 - INFO - Successfully processed batch 691
+2025-07-17 22:50:11,595 - INFO - Processing batch 692/804 (chunks 3336-3340/3899)
+2025-07-17 22:50:11,870 - INFO - Successfully processed batch 692
+2025-07-17 22:50:13,872 - INFO - Processing batch 693/804 (chunks 3341-3345/3899)
+2025-07-17 22:50:14,133 - INFO - Successfully processed batch 693
+2025-07-17 22:50:14,183 - INFO - Checkpoint saved at batch 692
+2025-07-17 22:50:14,187 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:16,187 - INFO - Processing batch 694/804 (chunks 3346-3350/3899)
+2025-07-17 22:50:16,370 - INFO - Successfully processed batch 694
+2025-07-17 22:50:18,371 - INFO - Processing batch 695/804 (chunks 3351-3355/3899)
+2025-07-17 22:50:18,654 - INFO - Successfully processed batch 695
+2025-07-17 22:50:20,655 - INFO - Processing batch 696/804 (chunks 3356-3360/3899)
+2025-07-17 22:50:20,842 - INFO - Successfully processed batch 696
+2025-07-17 22:50:20,894 - INFO - Checkpoint saved at batch 695
+2025-07-17 22:50:20,897 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:22,898 - INFO - Processing batch 697/804 (chunks 3361-3365/3899)
+2025-07-17 22:50:23,175 - INFO - Successfully processed batch 697
+2025-07-17 22:50:25,177 - INFO - Processing batch 698/804 (chunks 3366-3370/3899)
+2025-07-17 22:50:25,365 - INFO - Successfully processed batch 698
+2025-07-17 22:50:27,366 - INFO - Processing batch 699/804 (chunks 3371-3375/3899)
+2025-07-17 22:50:27,555 - INFO - Successfully processed batch 699
+2025-07-17 22:50:27,607 - INFO - Checkpoint saved at batch 698
+2025-07-17 22:50:27,610 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:29,611 - INFO - Processing batch 700/804 (chunks 3376-3380/3899)
+2025-07-17 22:50:29,799 - INFO - Successfully processed batch 700
+2025-07-17 22:50:31,799 - INFO - Processing batch 701/804 (chunks 3381-3385/3899)
+2025-07-17 22:50:31,998 - INFO - Successfully processed batch 701
+2025-07-17 22:50:33,999 - INFO - Processing batch 702/804 (chunks 3386-3390/3899)
+2025-07-17 22:50:34,197 - INFO - Successfully processed batch 702
+2025-07-17 22:50:34,246 - INFO - Checkpoint saved at batch 701
+2025-07-17 22:50:34,249 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:36,250 - INFO - Processing batch 703/804 (chunks 3391-3395/3899)
+2025-07-17 22:50:36,441 - INFO - Successfully processed batch 703
+2025-07-17 22:50:38,442 - INFO - Processing batch 704/804 (chunks 3396-3400/3899)
+2025-07-17 22:50:38,626 - INFO - Successfully processed batch 704
+2025-07-17 22:50:40,627 - INFO - Processing batch 705/804 (chunks 3401-3405/3899)
+2025-07-17 22:50:40,814 - INFO - Successfully processed batch 705
+2025-07-17 22:50:40,873 - INFO - Checkpoint saved at batch 704
+2025-07-17 22:50:40,877 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:42,878 - INFO - Processing batch 706/804 (chunks 3406-3410/3899)
+2025-07-17 22:50:43,059 - INFO - Successfully processed batch 706
+2025-07-17 22:50:45,060 - INFO - Processing batch 707/804 (chunks 3411-3415/3899)
+2025-07-17 22:50:45,248 - INFO - Successfully processed batch 707
+2025-07-17 22:50:47,249 - INFO - Processing batch 708/804 (chunks 3416-3420/3899)
+2025-07-17 22:50:47,433 - INFO - Successfully processed batch 708
+2025-07-17 22:50:47,482 - INFO - Checkpoint saved at batch 707
+2025-07-17 22:50:47,485 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:49,486 - INFO - Processing batch 709/804 (chunks 3421-3425/3899)
+2025-07-17 22:50:49,670 - INFO - Successfully processed batch 709
+2025-07-17 22:50:51,671 - INFO - Processing batch 710/804 (chunks 3426-3430/3899)
+2025-07-17 22:50:51,855 - INFO - Successfully processed batch 710
+2025-07-17 22:50:53,856 - INFO - Processing batch 711/804 (chunks 3431-3435/3899)
+2025-07-17 22:50:54,049 - INFO - Successfully processed batch 711
+2025-07-17 22:50:54,102 - INFO - Checkpoint saved at batch 710
+2025-07-17 22:50:54,105 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:50:56,107 - INFO - Processing batch 712/804 (chunks 3436-3440/3899)
+2025-07-17 22:50:56,307 - INFO - Successfully processed batch 712
+2025-07-17 22:50:58,307 - INFO - Processing batch 713/804 (chunks 3441-3445/3899)
+2025-07-17 22:50:58,560 - INFO - Successfully processed batch 713
+2025-07-17 22:51:00,561 - INFO - Processing batch 714/804 (chunks 3446-3450/3899)
+2025-07-17 22:51:00,753 - INFO - Successfully processed batch 714
+2025-07-17 22:51:00,803 - INFO - Checkpoint saved at batch 713
+2025-07-17 22:51:00,806 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:02,807 - INFO - Processing batch 715/804 (chunks 3451-3455/3899)
+2025-07-17 22:51:03,081 - INFO - Successfully processed batch 715
+2025-07-17 22:51:05,082 - INFO - Processing batch 716/804 (chunks 3456-3460/3899)
+2025-07-17 22:51:05,266 - INFO - Successfully processed batch 716
+2025-07-17 22:51:07,267 - INFO - Processing batch 717/804 (chunks 3461-3465/3899)
+2025-07-17 22:51:07,455 - INFO - Successfully processed batch 717
+2025-07-17 22:51:07,505 - INFO - Checkpoint saved at batch 716
+2025-07-17 22:51:07,509 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:09,510 - INFO - Processing batch 718/804 (chunks 3466-3470/3899)
+2025-07-17 22:51:09,699 - INFO - Successfully processed batch 718
+2025-07-17 22:51:11,700 - INFO - Processing batch 719/804 (chunks 3471-3475/3899)
+2025-07-17 22:51:11,956 - INFO - Successfully processed batch 719
+2025-07-17 22:51:13,957 - INFO - Processing batch 720/804 (chunks 3476-3480/3899)
+2025-07-17 22:51:14,147 - INFO - Successfully processed batch 720
+2025-07-17 22:51:14,198 - INFO - Checkpoint saved at batch 719
+2025-07-17 22:51:14,200 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:16,202 - INFO - Processing batch 721/804 (chunks 3481-3485/3899)
+2025-07-17 22:51:16,432 - INFO - Successfully processed batch 721
+2025-07-17 22:51:18,433 - INFO - Processing batch 722/804 (chunks 3486-3490/3899)
+2025-07-17 22:51:18,622 - INFO - Successfully processed batch 722
+2025-07-17 22:51:20,623 - INFO - Processing batch 723/804 (chunks 3491-3495/3899)
+2025-07-17 22:51:20,822 - INFO - Successfully processed batch 723
+2025-07-17 22:51:20,872 - INFO - Checkpoint saved at batch 722
+2025-07-17 22:51:20,875 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:22,876 - INFO - Processing batch 724/804 (chunks 3496-3500/3899)
+2025-07-17 22:51:23,061 - INFO - Successfully processed batch 724
+2025-07-17 22:51:25,061 - INFO - Processing batch 725/804 (chunks 3501-3505/3899)
+2025-07-17 22:51:25,254 - INFO - Successfully processed batch 725
+2025-07-17 22:51:27,254 - INFO - Processing batch 726/804 (chunks 3506-3510/3899)
+2025-07-17 22:51:27,443 - INFO - Successfully processed batch 726
+2025-07-17 22:51:27,496 - INFO - Checkpoint saved at batch 725
+2025-07-17 22:51:27,498 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:29,500 - INFO - Processing batch 727/804 (chunks 3511-3515/3899)
+2025-07-17 22:51:29,685 - INFO - Successfully processed batch 727
+2025-07-17 22:51:31,685 - INFO - Processing batch 728/804 (chunks 3516-3520/3899)
+2025-07-17 22:51:31,870 - INFO - Successfully processed batch 728
+2025-07-17 22:51:33,872 - INFO - Processing batch 729/804 (chunks 3521-3525/3899)
+2025-07-17 22:51:34,063 - INFO - Successfully processed batch 729
+2025-07-17 22:51:34,116 - INFO - Checkpoint saved at batch 728
+2025-07-17 22:51:34,119 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:36,120 - INFO - Processing batch 730/804 (chunks 3526-3530/3899)
+2025-07-17 22:51:36,314 - INFO - Successfully processed batch 730
+2025-07-17 22:51:38,314 - INFO - Processing batch 731/804 (chunks 3531-3535/3899)
+2025-07-17 22:51:38,502 - INFO - Successfully processed batch 731
+2025-07-17 22:51:40,503 - INFO - Processing batch 732/804 (chunks 3536-3540/3899)
+2025-07-17 22:51:40,702 - INFO - Successfully processed batch 732
+2025-07-17 22:51:40,755 - INFO - Checkpoint saved at batch 731
+2025-07-17 22:51:40,758 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:42,759 - INFO - Processing batch 733/804 (chunks 3541-3545/3899)
+2025-07-17 22:51:42,958 - INFO - Successfully processed batch 733
+2025-07-17 22:51:44,959 - INFO - Processing batch 734/804 (chunks 3546-3550/3899)
+2025-07-17 22:51:45,147 - INFO - Successfully processed batch 734
+2025-07-17 22:51:47,148 - INFO - Processing batch 735/804 (chunks 3551-3555/3899)
+2025-07-17 22:51:47,339 - INFO - Successfully processed batch 735
+2025-07-17 22:51:47,395 - INFO - Checkpoint saved at batch 734
+2025-07-17 22:51:47,398 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:49,399 - INFO - Processing batch 736/804 (chunks 3556-3560/3899)
+2025-07-17 22:51:49,587 - INFO - Successfully processed batch 736
+2025-07-17 22:51:51,588 - INFO - Processing batch 737/804 (chunks 3561-3565/3899)
+2025-07-17 22:51:51,779 - INFO - Successfully processed batch 737
+2025-07-17 22:51:53,780 - INFO - Processing batch 738/804 (chunks 3566-3570/3899)
+2025-07-17 22:51:53,964 - INFO - Successfully processed batch 738
+2025-07-17 22:51:54,016 - INFO - Checkpoint saved at batch 737
+2025-07-17 22:51:54,019 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:51:56,020 - INFO - Processing batch 739/804 (chunks 3571-3575/3899)
+2025-07-17 22:51:56,210 - INFO - Successfully processed batch 739
+2025-07-17 22:51:58,212 - INFO - Processing batch 740/804 (chunks 3576-3580/3899)
+2025-07-17 22:51:58,394 - INFO - Successfully processed batch 740
+2025-07-17 22:52:00,395 - INFO - Processing batch 741/804 (chunks 3581-3585/3899)
+2025-07-17 22:52:00,580 - INFO - Successfully processed batch 741
+2025-07-17 22:52:00,633 - INFO - Checkpoint saved at batch 740
+2025-07-17 22:52:00,637 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:02,638 - INFO - Processing batch 742/804 (chunks 3586-3590/3899)
+2025-07-17 22:52:02,824 - INFO - Successfully processed batch 742
+2025-07-17 22:52:04,825 - INFO - Processing batch 743/804 (chunks 3591-3595/3899)
+2025-07-17 22:52:05,022 - INFO - Successfully processed batch 743
+2025-07-17 22:52:07,024 - INFO - Processing batch 744/804 (chunks 3596-3600/3899)
+2025-07-17 22:52:07,227 - INFO - Successfully processed batch 744
+2025-07-17 22:52:07,282 - INFO - Checkpoint saved at batch 743
+2025-07-17 22:52:07,285 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:09,286 - INFO - Processing batch 745/804 (chunks 3601-3605/3899)
+2025-07-17 22:52:09,480 - INFO - Successfully processed batch 745
+2025-07-17 22:52:11,482 - INFO - Processing batch 746/804 (chunks 3606-3610/3899)
+2025-07-17 22:52:11,672 - INFO - Successfully processed batch 746
+2025-07-17 22:52:13,673 - INFO - Processing batch 747/804 (chunks 3611-3615/3899)
+2025-07-17 22:52:13,864 - INFO - Successfully processed batch 747
+2025-07-17 22:52:13,919 - INFO - Checkpoint saved at batch 746
+2025-07-17 22:52:13,923 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:15,924 - INFO - Processing batch 748/804 (chunks 3616-3620/3899)
+2025-07-17 22:52:16,119 - INFO - Successfully processed batch 748
+2025-07-17 22:52:18,120 - INFO - Processing batch 749/804 (chunks 3621-3625/3899)
+2025-07-17 22:52:18,307 - INFO - Successfully processed batch 749
+2025-07-17 22:52:20,308 - INFO - Processing batch 750/804 (chunks 3626-3630/3899)
+2025-07-17 22:52:20,493 - INFO - Successfully processed batch 750
+2025-07-17 22:52:20,547 - INFO - Checkpoint saved at batch 749
+2025-07-17 22:52:20,550 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:22,551 - INFO - Processing batch 751/804 (chunks 3631-3635/3899)
+2025-07-17 22:52:22,742 - INFO - Successfully processed batch 751
+2025-07-17 22:52:24,743 - INFO - Processing batch 752/804 (chunks 3636-3640/3899)
+2025-07-17 22:52:25,028 - INFO - Successfully processed batch 752
+2025-07-17 22:52:27,029 - INFO - Processing batch 753/804 (chunks 3641-3645/3899)
+2025-07-17 22:52:27,222 - INFO - Successfully processed batch 753
+2025-07-17 22:52:27,275 - INFO - Checkpoint saved at batch 752
+2025-07-17 22:52:27,278 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:29,279 - INFO - Processing batch 754/804 (chunks 3646-3650/3899)
+2025-07-17 22:52:29,557 - INFO - Successfully processed batch 754
+2025-07-17 22:52:31,559 - INFO - Processing batch 755/804 (chunks 3651-3655/3899)
+2025-07-17 22:52:31,747 - INFO - Successfully processed batch 755
+2025-07-17 22:52:33,747 - INFO - Processing batch 756/804 (chunks 3656-3660/3899)
+2025-07-17 22:52:33,930 - INFO - Successfully processed batch 756
+2025-07-17 22:52:33,986 - INFO - Checkpoint saved at batch 755
+2025-07-17 22:52:33,988 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:35,990 - INFO - Processing batch 757/804 (chunks 3661-3665/3899)
+2025-07-17 22:52:36,181 - INFO - Successfully processed batch 757
+2025-07-17 22:52:38,182 - INFO - Processing batch 758/804 (chunks 3666-3670/3899)
+2025-07-17 22:52:38,368 - INFO - Successfully processed batch 758
+2025-07-17 22:52:40,369 - INFO - Processing batch 759/804 (chunks 3671-3675/3899)
+2025-07-17 22:52:40,662 - INFO - Successfully processed batch 759
+2025-07-17 22:52:40,716 - INFO - Checkpoint saved at batch 758
+2025-07-17 22:52:40,719 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:42,722 - INFO - Processing batch 760/804 (chunks 3676-3680/3899)
+2025-07-17 22:52:42,916 - INFO - Successfully processed batch 760
+2025-07-17 22:52:44,917 - INFO - Processing batch 761/804 (chunks 3681-3685/3899)
+2025-07-17 22:52:45,200 - INFO - Successfully processed batch 761
+2025-07-17 22:52:47,200 - INFO - Processing batch 762/804 (chunks 3686-3690/3899)
+2025-07-17 22:52:47,450 - INFO - Successfully processed batch 762
+2025-07-17 22:52:47,548 - INFO - Checkpoint saved at batch 761
+2025-07-17 22:52:47,552 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:49,553 - INFO - Processing batch 763/804 (chunks 3691-3695/3899)
+2025-07-17 22:52:49,742 - INFO - Successfully processed batch 763
+2025-07-17 22:52:51,743 - INFO - Processing batch 764/804 (chunks 3696-3700/3899)
+2025-07-17 22:52:52,025 - INFO - Successfully processed batch 764
+2025-07-17 22:52:54,026 - INFO - Processing batch 765/804 (chunks 3701-3705/3899)
+2025-07-17 22:52:54,216 - INFO - Successfully processed batch 765
+2025-07-17 22:52:54,269 - INFO - Checkpoint saved at batch 764
+2025-07-17 22:52:54,272 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:52:56,273 - INFO - Processing batch 766/804 (chunks 3706-3710/3899)
+2025-07-17 22:52:56,461 - INFO - Successfully processed batch 766
+2025-07-17 22:52:58,462 - INFO - Processing batch 767/804 (chunks 3711-3715/3899)
+2025-07-17 22:52:58,645 - INFO - Successfully processed batch 767
+2025-07-17 22:53:00,645 - INFO - Processing batch 768/804 (chunks 3716-3720/3899)
+2025-07-17 22:53:00,837 - INFO - Successfully processed batch 768
+2025-07-17 22:53:00,896 - INFO - Checkpoint saved at batch 767
+2025-07-17 22:53:00,900 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:02,900 - INFO - Processing batch 769/804 (chunks 3721-3725/3899)
+2025-07-17 22:53:03,085 - INFO - Successfully processed batch 769
+2025-07-17 22:53:05,086 - INFO - Processing batch 770/804 (chunks 3726-3730/3899)
+2025-07-17 22:53:05,364 - INFO - Successfully processed batch 770
+2025-07-17 22:53:07,365 - INFO - Processing batch 771/804 (chunks 3731-3735/3899)
+2025-07-17 22:53:07,570 - INFO - Successfully processed batch 771
+2025-07-17 22:53:07,626 - INFO - Checkpoint saved at batch 770
+2025-07-17 22:53:07,630 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:09,631 - INFO - Processing batch 772/804 (chunks 3736-3740/3899)
+2025-07-17 22:53:09,820 - INFO - Successfully processed batch 772
+2025-07-17 22:53:11,822 - INFO - Processing batch 773/804 (chunks 3741-3745/3899)
+2025-07-17 22:53:12,009 - INFO - Successfully processed batch 773
+2025-07-17 22:53:14,010 - INFO - Processing batch 774/804 (chunks 3746-3750/3899)
+2025-07-17 22:53:14,272 - INFO - Successfully processed batch 774
+2025-07-17 22:53:14,328 - INFO - Checkpoint saved at batch 773
+2025-07-17 22:53:14,331 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:16,332 - INFO - Processing batch 775/804 (chunks 3751-3755/3899)
+2025-07-17 22:53:16,610 - INFO - Successfully processed batch 775
+2025-07-17 22:53:18,611 - INFO - Processing batch 776/804 (chunks 3756-3760/3899)
+2025-07-17 22:53:18,896 - INFO - Successfully processed batch 776
+2025-07-17 22:53:20,899 - INFO - Processing batch 777/804 (chunks 3761-3765/3899)
+2025-07-17 22:53:21,163 - INFO - Successfully processed batch 777
+2025-07-17 22:53:21,220 - INFO - Checkpoint saved at batch 776
+2025-07-17 22:53:21,225 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:23,225 - INFO - Processing batch 778/804 (chunks 3766-3770/3899)
+2025-07-17 22:53:23,426 - INFO - Successfully processed batch 778
+2025-07-17 22:53:25,426 - INFO - Processing batch 779/804 (chunks 3771-3775/3899)
+2025-07-17 22:53:25,612 - INFO - Successfully processed batch 779
+2025-07-17 22:53:27,612 - INFO - Processing batch 780/804 (chunks 3776-3780/3899)
+2025-07-17 22:53:27,813 - INFO - Successfully processed batch 780
+2025-07-17 22:53:27,878 - INFO - Checkpoint saved at batch 779
+2025-07-17 22:53:27,881 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:29,882 - INFO - Processing batch 781/804 (chunks 3781-3785/3899)
+2025-07-17 22:53:30,060 - INFO - Successfully processed batch 781
+2025-07-17 22:53:32,061 - INFO - Processing batch 782/804 (chunks 3786-3790/3899)
+2025-07-17 22:53:32,259 - INFO - Successfully processed batch 782
+2025-07-17 22:53:34,260 - INFO - Processing batch 783/804 (chunks 3791-3795/3899)
+2025-07-17 22:53:34,507 - INFO - Successfully processed batch 783
+2025-07-17 22:53:34,561 - INFO - Checkpoint saved at batch 782
+2025-07-17 22:53:34,564 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:36,565 - INFO - Processing batch 784/804 (chunks 3796-3800/3899)
+2025-07-17 22:53:36,852 - INFO - Successfully processed batch 784
+2025-07-17 22:53:38,852 - INFO - Processing batch 785/804 (chunks 3801-3805/3899)
+2025-07-17 22:53:39,097 - INFO - Successfully processed batch 785
+2025-07-17 22:53:41,098 - INFO - Processing batch 786/804 (chunks 3806-3810/3899)
+2025-07-17 22:53:41,290 - INFO - Successfully processed batch 786
+2025-07-17 22:53:41,344 - INFO - Checkpoint saved at batch 785
+2025-07-17 22:53:41,347 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:43,349 - INFO - Processing batch 787/804 (chunks 3811-3815/3899)
+2025-07-17 22:53:43,536 - INFO - Successfully processed batch 787
+2025-07-17 22:53:45,538 - INFO - Processing batch 788/804 (chunks 3816-3820/3899)
+2025-07-17 22:53:45,724 - INFO - Successfully processed batch 788
+2025-07-17 22:53:47,725 - INFO - Processing batch 789/804 (chunks 3821-3825/3899)
+2025-07-17 22:53:47,915 - INFO - Successfully processed batch 789
+2025-07-17 22:53:47,971 - INFO - Checkpoint saved at batch 788
+2025-07-17 22:53:47,974 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:49,976 - INFO - Processing batch 790/804 (chunks 3826-3830/3899)
+2025-07-17 22:53:50,268 - INFO - Successfully processed batch 790
+2025-07-17 22:53:52,270 - INFO - Processing batch 791/804 (chunks 3831-3835/3899)
+2025-07-17 22:53:52,548 - INFO - Successfully processed batch 791
+2025-07-17 22:53:54,549 - INFO - Processing batch 792/804 (chunks 3836-3840/3899)
+2025-07-17 22:53:54,740 - INFO - Successfully processed batch 792
+2025-07-17 22:53:54,795 - INFO - Checkpoint saved at batch 791
+2025-07-17 22:53:54,799 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:53:56,800 - INFO - Processing batch 793/804 (chunks 3841-3845/3899)
+2025-07-17 22:53:57,088 - INFO - Successfully processed batch 793
+2025-07-17 22:53:59,089 - INFO - Processing batch 794/804 (chunks 3846-3850/3899)
+2025-07-17 22:53:59,274 - INFO - Successfully processed batch 794
+2025-07-17 22:54:01,276 - INFO - Processing batch 795/804 (chunks 3851-3855/3899)
+2025-07-17 22:54:01,465 - INFO - Successfully processed batch 795
+2025-07-17 22:54:01,522 - INFO - Checkpoint saved at batch 794
+2025-07-17 22:54:01,526 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:54:03,527 - INFO - Processing batch 796/804 (chunks 3856-3860/3899)
+2025-07-17 22:54:03,729 - INFO - Successfully processed batch 796
+2025-07-17 22:54:05,730 - INFO - Processing batch 797/804 (chunks 3861-3865/3899)
+2025-07-17 22:54:05,912 - INFO - Successfully processed batch 797
+2025-07-17 22:54:07,914 - INFO - Processing batch 798/804 (chunks 3866-3870/3899)
+2025-07-17 22:54:08,171 - INFO - Successfully processed batch 798
+2025-07-17 22:54:08,226 - INFO - Checkpoint saved at batch 797
+2025-07-17 22:54:08,230 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:54:10,231 - INFO - Processing batch 799/804 (chunks 3871-3875/3899)
+2025-07-17 22:54:10,416 - INFO - Successfully processed batch 799
+2025-07-17 22:54:12,417 - INFO - Processing batch 800/804 (chunks 3876-3880/3899)
+2025-07-17 22:54:12,608 - INFO - Successfully processed batch 800
+2025-07-17 22:54:14,609 - INFO - Processing batch 801/804 (chunks 3881-3885/3899)
+2025-07-17 22:54:14,790 - INFO - Successfully processed batch 801
+2025-07-17 22:54:14,850 - INFO - Checkpoint saved at batch 800
+2025-07-17 22:54:14,852 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:54:16,854 - INFO - Processing batch 802/804 (chunks 3886-3890/3899)
+2025-07-17 22:54:17,050 - INFO - Successfully processed batch 802
+2025-07-17 22:54:19,050 - INFO - Processing batch 803/804 (chunks 3891-3895/3899)
+2025-07-17 22:54:19,232 - INFO - Successfully processed batch 803
+2025-07-17 22:54:21,234 - INFO - Processing batch 804/804 (chunks 3896-3899/3899)
+2025-07-17 22:54:21,422 - INFO - Successfully processed batch 804
+2025-07-17 22:54:21,478 - INFO - Checkpoint saved at batch 803
+2025-07-17 22:54:21,480 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-17 22:54:21,540 - INFO - Checkpoint saved at batch 803
+2025-07-17 22:54:21,540 - INFO - Embedding process completed! Processed 4019 total chunks
+2025-07-17 22:54:21,540 - INFO - 3899 chunks processed in this session
+2025-07-17 22:54:21,563 - INFO - Final vectorstore saved to: final_vectorstore
+2025-07-17 22:54:22,129 - ERROR - Fatal error: 
+2025-07-17 22:54:22,129 - INFO - Check the embedding_checkpoints/ directory for saved progress
