@@ -2226,3 +2226,60 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2025-07-17 22:54:21,563 - INFO - Final vectorstore saved to: final_vectorstore
 2025-07-17 22:54:22,129 - ERROR - Fatal error: 
 2025-07-17 22:54:22,129 - INFO - Check the embedding_checkpoints/ directory for saved progress
+2025-07-18 11:15:54,010 - INFO - Found checkpoint at batch 803
+2025-07-18 11:15:54,016 - INFO - Loading faiss with AVX2 support.
+2025-07-18 11:15:54,017 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-07-18 11:15:54,017 - INFO - Loading faiss.
+2025-07-18 11:15:54,077 - INFO - Successfully loaded faiss.
+2025-07-18 11:15:54,151 - INFO - Checkpoint loaded from batch 803
+2025-07-18 11:15:54,151 - INFO - Resuming from batch 804, 4019 chunks already processed
+2025-07-18 11:15:54,151 - INFO - Loading PDFs from directory: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/data/
+2025-07-18 11:16:27,037 - INFO - Process interrupted by user. Progress has been saved in checkpoints.
+2025-07-18 11:16:55,974 - INFO - Loading PDFs from directory: C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/data/
+2025-07-18 11:19:24,464 - INFO - Loaded 3460 pages from directory
+2025-07-18 11:19:24,464 - INFO - Splitting documents into chunks (size: 1000, overlap: 200)
+2025-07-18 11:19:24,741 - INFO - Created 13543 chunks
+2025-07-18 11:19:24,742 - INFO - Processing batch 1/2709 (chunks 1-5/13543)
+2025-07-18 11:19:26,432 - INFO - Loading faiss with AVX2 support.
+2025-07-18 11:19:26,433 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-07-18 11:19:26,433 - INFO - Loading faiss.
+2025-07-18 11:19:26,490 - INFO - Successfully loaded faiss.
+2025-07-18 11:19:26,496 - INFO - Successfully processed batch 1
+2025-07-18 11:19:28,497 - INFO - Processing batch 2/2709 (chunks 6-10/13543)
+2025-07-18 11:19:29,472 - INFO - Successfully processed batch 2
+2025-07-18 11:19:31,474 - INFO - Processing batch 3/2709 (chunks 11-15/13543)
+2025-07-18 11:19:33,373 - INFO - Successfully processed batch 3
+2025-07-18 11:19:33,377 - INFO - Checkpoint saved at batch 2
+2025-07-18 11:19:35,377 - INFO - Processing batch 4/2709 (chunks 16-20/13543)
+2025-07-18 11:19:36,655 - INFO - Successfully processed batch 4
+2025-07-18 11:19:38,656 - INFO - Processing batch 5/2709 (chunks 21-25/13543)
+2025-07-18 11:19:39,632 - INFO - Successfully processed batch 5
+2025-07-18 11:19:41,634 - INFO - Processing batch 6/2709 (chunks 26-30/13543)
+2025-07-18 11:19:42,909 - INFO - Successfully processed batch 6
+2025-07-18 11:19:42,912 - INFO - Checkpoint saved at batch 5
+2025-07-18 11:19:44,913 - INFO - Processing batch 7/2709 (chunks 31-35/13543)
+2025-07-18 11:19:45,826 - INFO - Successfully processed batch 7
+2025-07-18 11:19:47,827 - INFO - Processing batch 8/2709 (chunks 36-40/13543)
+2025-07-18 11:19:48,413 - INFO - Successfully processed batch 8
+2025-07-18 11:19:50,414 - INFO - Processing batch 9/2709 (chunks 41-45/13543)
+2025-07-18 11:19:51,684 - INFO - Successfully processed batch 9
+2025-07-18 11:19:51,687 - INFO - Checkpoint saved at batch 8
+2025-07-18 11:19:53,687 - INFO - Processing batch 10/2709 (chunks 46-50/13543)
+2025-07-18 11:19:54,923 - INFO - Successfully processed batch 10
+2025-07-18 11:19:56,923 - INFO - Processing batch 11/2709 (chunks 51-55/13543)
+2025-07-18 11:19:57,513 - INFO - Successfully processed batch 11
+2025-07-18 11:19:59,514 - INFO - Processing batch 12/2709 (chunks 56-60/13543)
+2025-07-18 11:20:00,100 - INFO - Successfully processed batch 12
+2025-07-18 11:20:00,103 - INFO - Checkpoint saved at batch 11
+2025-07-18 11:20:00,105 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-18 11:20:02,106 - INFO - Processing batch 13/2709 (chunks 61-65/13543)
+2025-07-18 11:20:03,374 - INFO - Successfully processed batch 13
+2025-07-18 11:20:05,375 - INFO - Processing batch 14/2709 (chunks 66-70/13543)
+2025-07-18 11:20:06,307 - INFO - Successfully processed batch 14
+2025-07-18 11:20:08,308 - INFO - Processing batch 15/2709 (chunks 71-75/13543)
+2025-07-18 11:20:09,208 - INFO - Successfully processed batch 15
+2025-07-18 11:20:09,212 - INFO - Checkpoint saved at batch 14
+2025-07-18 11:20:09,213 - INFO - Cleaned up old checkpoints, kept last 3
+2025-07-18 11:20:10,827 - INFO - Process interrupted by user. Progress has been saved in checkpoints.

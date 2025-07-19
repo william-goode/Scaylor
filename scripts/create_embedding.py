@@ -5,17 +5,28 @@ import logging
 import getpass
 import os
 
-from datetime import datetime
-from typing import List, Optional
-from pathlib import Path
-from tqdm import tqdm
 
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain.document_loaders import PyPDFLoader
-from langchain.schema import Document
+from datetime   import datetime
+from typing     import List, Optional
+from pathlib    import Path
+from tqdm       import tqdm
+
+
+from langchain.text_splitter                import RecursiveCharacterTextSplitter
+from langchain_google_genai                 import GoogleGenerativeAIEmbeddings
+from langchain.schema                       import Document
+from langchain_community.vectorstores       import FAISS
+from langchain_community.document_loaders   import PyPDFLoader, DirectoryLoader
+
+
+# Suppress specific warnings
+import warnings
+from cryptography.utils import CryptographyDeprecationWarning
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=CryptographyDeprecationWarning)
+
+
 
 # Configure logging
 logging.basicConfig(
@@ -75,7 +86,6 @@ class EmbeddingCheckpointer:
         embeddings = GoogleGenerativeAIEmbeddings(
             model="models/gemini-embedding-exp-03-07",
             task_type="QUESTION_ANSWERING") 
-            # forgot to include task_type initially, current vectorstore has defaulkt
         
         vectorstore = FAISS.load_local(
                         str(vectorstore_path), 
@@ -126,11 +136,25 @@ class EmbeddingCheckpointer:
         logger.info(f"Cleaned up old checkpoints, kept last {keep_last}")
 
 def load_pdf_documents(pdf_path: str) -> List[Document]:
-    """Load PDF and return documents"""
-    logger.info(f"Loading PDF: {pdf_path}")
-    loader = PyPDFLoader(pdf_path)
-    documents = loader.load()
-    logger.info(f"Loaded {len(documents)} pages from PDF")
+    """Load PDF or directory of PDFs and return documents"""
+    if os.path.isfile(pdf_path):
+        # Single PDF file
+        logger.info(f"Loading single PDF: {pdf_path}")
+        loader = PyPDFLoader(pdf_path)
+        documents = loader.load()
+        logger.info(f"Loaded {len(documents)} pages from PDF")
+    else:
+        # Directory of PDFs
+        logger.info(f"Loading PDFs from directory: {pdf_path}")
+        loader = DirectoryLoader(
+            pdf_path,
+            glob="**/*.pdf",
+            loader_cls=PyPDFLoader,
+            show_progress=True
+        )
+        documents = loader.load()
+        logger.info(f"Loaded {len(documents)} pages from directory")
+    
     return documents
 
 def split_documents(documents: List[Document], 
@@ -165,7 +189,7 @@ def create_embeddings_with_checkpoint(
     Create embeddings with checkpointing and progress tracking
     
     Args:
-        pdf_path: Path to the PDF file
+        pdf_path: Path to the PDF file or directory containing PDFs
         batch_size: Number of chunks to process in each batch
         delay_between_batches: Seconds to wait between batches
         checkpoint_every: Save checkpoint every N batches
@@ -180,7 +204,9 @@ def create_embeddings_with_checkpoint(
     checkpointer = EmbeddingCheckpointer()
     
     # Initialize embeddings
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+    embeddings = GoogleGenerativeAIEmbeddings(
+                    model="models/gemini-embedding-exp-03-07",
+                    task_type="QUESTION_ANSWERING")  
     
     # Check for existing checkpoint
     start_batch = 0
@@ -341,8 +367,7 @@ def main():
         os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter API key for Google Gemini: ")
     
     # Configuration
-    """Creates embedding for single PDF file with checkpointing"""
-    PDF_PATH = "C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/data/Q32024.pdf"  # Update this path
+    PDF_PATH = "C:/Users/19368/Repos/Personal/Scaylor Coding Challenge/data/"  # Update this path
     BATCH_SIZE = 5  # Smaller batches for rate limiting
     DELAY_BETWEEN_BATCHES = 2.0  # 2 seconds between batches
     CHECKPOINT_EVERY = 3  # Save checkpoint every 3 batches
@@ -351,8 +376,8 @@ def main():
     
     # Ensure PDF exists
     if not os.path.exists(PDF_PATH):
-        logger.error(f"PDF file not found: {PDF_PATH}")
-        logger.info("Please update the PDF_PATH variable with your actual PDF file path")
+        logger.error(f"PDF path not found: {PDF_PATH}")
+        logger.info("Please update the PDF_PATH variable with your actual PDF file or directory path")
         return
     
     try:
